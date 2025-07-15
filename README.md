@@ -18,6 +18,7 @@ First, create the `conda` environment for `python`. You will require an installa
  
 ```
 conda env create -f environment.yml
+conda env create -f fair2_environment.yml
 conda activate fair-calibrate
 ```
 
