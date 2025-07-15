@@ -1,0 +1,52 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11614520
+##  Job Name : FAIRc_cur
+##  Nodelist : node2352
+##      CPUs : 1
+##  Mem/Node : 16384 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 28 10:28:57 PM EDT 2025
+###############################################################################
+Starting job 48 on node2352
+0
+>>> Constraining with cutoff year = 1977
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 354483
+[157372 135681  97880  91193  12473   4954 152697  40789 211308  31209]
+[0.16999911 0.16999922 0.1699993  0.16999936 0.16999938 0.16999951
+ 0.1699996  0.16999978 0.16999982 0.16999984]
+[0.09852896 0.10009949 0.10195573 0.10331771 0.1036673  0.10372213
+ 0.10438179 0.10444229 0.10516181 0.10520573]
+1
+####  • constraining/02_run-1pct.py####
+263
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+264
+Doing reweighting...
+breakpoint here?
+Number of effective samples: 2087
+Constrained, reweighted parameters:
+ECS: [1.68963437 2.96681093 5.14527739]
+TCR: [1.18682919 1.64219384 2.19267374]
+CO2 concentration current: [333.25729327 334.24669558 335.18761878]
+Temperature l20yrs rel. 1850-1900: [-0.01673121  0.13201368  0.30795211]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.66688837 -0.32801738  0.03275234]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.80951287 -1.105548   -0.23874891]
+Aerosol ERF 2005-2014 rel. 1750: [-2.10460267 -1.43081978 -0.56962449]
+OHC change l50yrs: [113.73027887 201.79412173 299.93239617]
+*likely range
+3
+####  • constraining/04_dump-calibration.py####
+369
+Dumping output...
+4
+5
+6
+7
+381
+All done!

@@ -1,0 +1,27 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11638284
+##  Job Name : FAIR_Nv
+##  Nodelist : node2432
+##      CPUs : 85
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Mon Jun  2 09:59:23 AM EDT 2025
+###############################################################################
+Starting job 8 on node2432
+environment: line 5: 2244095 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244081 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244090 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243888 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243937 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243869 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243946 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243789 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244043 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243929 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2243845 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244110 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244130 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 2244150 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 473 seconds
+All done!
+slurmstepd: error: Detected 14 oom_kill events in StepId=11638284.batch. Some of the step tasks have been OOM Killed.

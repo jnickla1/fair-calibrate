@@ -1,0 +1,13 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11667914
+##  Job Name : FAIR_Nvc
+##  Nodelist : node2315
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun  6 12:59:23 PM EDT 2025
+###############################################################################
+Starting job 44 on node2315
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1930
+slurmstepd: error: *** JOB 11667914 ON node2315 CANCELLED AT 2025-06-06T13:01:06 ***

@@ -1,0 +1,68 @@
+#!/bin/bash
+#SBATCH -J FAIR_Nv
+#SBATCH -t 0:20:00
+# Should only take 10  mins
+#SBATCH --account=epscor-condo
+#SBATCH -n 1
+#SBATCH --array=0-1
+#SBATCH -o logs_Nv/arrayjob-%a.out
+
+echo "Starting job $SLURM_ARRAY_TASK_ID on $HOSTNAME"
+
+# usage: ./run
+
+eval "$(conda shell.bash hook)"
+conda activate fair-calibrate
+module load r
+# Don't forget to set your environment variables in .env
+if [ -f .env2 ]
+then
+  export $(cat .env2 | xargs)
+fi
+
+# Base path to your fair-calibrate input tree
+script_dir=$PWD
+base_dir="${script_dir}/input/fair-${FAIR_VERSION}/v${CALIBRATION_VERSION}/${CONSTRAINT_SET}"
+
+unset CUTOFF_YEAR
+unset ENSEMBLE_RUN
+start=$SECONDS
+
+ENSEMBLE_MIN=1
+N_ENSEMBLE=60   # 1 through 60
+CUTOFF_MIN=1930
+N_CUTOFF=170    # 1930 through 2099
+
+task_id=${SLURM_ARRAY_TASK_ID}
+
+ENSEMBLE_INDEX=$(( task_id % N_ENSEMBLE ))
+CUTOFF_INDEX=$(( task_id / N_ENSEMBLE ))
+
+export ENSEMBLE_RUN=$(( ENSEMBLE_MIN + ENSEMBLE_INDEX ))
+export CUTOFF_YEAR=$(( CUTOFF_MIN + CUTOFF_INDEX ))
+
+echo "Running ENSEMBLE_RUN = $ENSEMBLE_RUN, CUTOFF_YEAR = $CUTOFF_YEAR"
+  echo $(( SECONDS - start ))
+  echo ">>> Constraining with cutoff year = ${CUTOFF_YEAR}"
+  cd "${base_dir}/constraining"
+  file_array=( $(\ls [0-9][0-9]_*.*) )
+  for filekey in "${!file_array[@]}"; do
+    echo $filekey
+    if [ $filekey -lt 3 ]; then  #for debugging specific constraining files
+       file=${file_array[$filekey]}
+    echo "####  • constraining/${file}####"
+    echo $(( SECONDS - start ))
+    chmod +x "$file"
+    "./$file" || { echo "ERROR in constraining/${file} for cutoff ${CUTOFF_YEAR}"; exit 1; }
+    elif [ $filekey -eq 3 ]; then 
+	conda deactivate
+	conda activate fair2
+	file=${file_array[$filekey]}
+        echo "####  • constraining/${file}####"
+        echo $(( SECONDS - start ))
+        chmod +x "$file"
+        "./$file" || { echo "ERROR in constraining/${file} for cutoff ${CUTOFF_YEAR}"; exit 1; }
+    fi
+  done
+echo $(( SECONDS - start ))
+echo "All done!"

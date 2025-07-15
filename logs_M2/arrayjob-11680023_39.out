@@ -1,0 +1,22 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11683711
+##  Job Name : FAIR_M2
+##  Nodelist : node[2336,2340,2343-2346]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Mon Jun  9 06:32:49 AM EDT 2025
+###############################################################################
+Starting job 39 on node2336
+environment: line 1: 975347 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975655 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975451 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975865 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975565 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 976118 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975385 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975191 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 975164 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 3911 seconds
+All done!
+slurmstepd: error: Detected 9 oom_kill events in StepId=11683711.batch. Some of the step tasks have been OOM Killed.

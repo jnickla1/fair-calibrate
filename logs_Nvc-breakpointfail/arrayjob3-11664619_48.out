@@ -1,0 +1,15 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11666815
+##  Job Name : FAIR_Nvc
+##  Nodelist : node[2302-2307]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun  6 11:51:12 AM EDT 2025
+###############################################################################
+Starting job 48 on node2302
+rm: cannot remove 'logs_Nv/arrayjob2-*_48.out': No such file or directory
+environment: line 5: 3599659 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 3900417 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+slurmstepd: error: *** JOB 11666815 ON node2302 CANCELLED AT 2025-06-06T13:01:11 ***
+slurmstepd: error: Detected 2 oom_kill events in StepId=11666815.batch. Some of the step tasks have been OOM Killed.

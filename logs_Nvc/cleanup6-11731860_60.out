@@ -1,0 +1,18 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11731860
+##  Job Name : FAIR_Nvc
+##  Nodelist : node2308
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun 13 04:44:02 PM EDT 2025
+###############################################################################
+Starting job 60 on node2308
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1930
+Doing reweighting...
+Traceback (most recent call last):
+  File "/oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolcConst/constraining/03_reweight-rmse-posterior-multiple-constraints.py", line 146, in <module>
+    ohca_meas[(1980-1850):(2006-1850)] = ohca_e[(model_run if model_run< 37 else model_run-1) ,:] + 2*ohca_meas[(1979-1850)] - ohca_meas[(1978-1850)] #missing one model_run ohca, so shift them
+                                         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: index 59 is out of bounds for axis 0 with size 59

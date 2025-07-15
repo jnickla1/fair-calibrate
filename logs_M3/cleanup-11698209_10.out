@@ -1,0 +1,433 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11698219
+##  Job Name : FAIR_M3
+##  Nodelist : node2348
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Tue Jun 10 01:48:12 AM EDT 2025
+###############################################################################
+Starting job 10 on node2348
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓✓cut=1931✓✓cut=1932✓✓cut=1933✓✓cut=1934✓✓cut=1935✓✓cut=1936✓✓cut=1937✓✓cut=1938✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1938
+Doing reweighting...
+Number of effective samples: 75010
+Constrained, reweighted parameters:
+ECS: [1.99026541 3.00685588 5.05008445]
+TCR: [1.30979148 1.85623887 2.42044359]
+CO2 concentration current: [304.80669556 308.87355577 312.76192299]
+Temperature l20yrs rel. 1850-1900: [0.02912176 0.15653335 0.29358921]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.59207438 -0.28911481  0.010902  ]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.64328997 -1.00273595 -0.34955191]
+Aerosol ERF 2005-2014 rel. 1750: [-1.97915426 -1.31490293 -0.57011507]
+OHC change l50yrs: [  3.81009429  82.66275227 154.38417858]
+*likely range
+cut=1939✓✓cut=1940✓✓cut=1941✓✓cut=1942✓✓cut=1943✓✓cut=1944✓✓cut=1945✓✓cut=1946✓✓cut=1947✓✓cut=1948✓✓cut=1949✓✓cut=1950✓✓cut=1951✓✓cut=1952✓✓cut=1953✓✓cut=1954✓✓cut=1955✓✓cut=1956✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1956
+Doing reweighting...
+Number of effective samples: 11243
+Constrained, reweighted parameters:
+ECS: [1.97599677 3.01040752 5.22157767]
+TCR: [1.34693498 1.87521506 2.46695799]
+CO2 concentration current: [309.36856399 313.25065577 317.24849043]
+Temperature l20yrs rel. 1850-1900: [0.11503844 0.2148134  0.36083086]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60652196 -0.29248525  0.00900024]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.65574416 -0.94237526 -0.24778598]
+Aerosol ERF 2005-2014 rel. 1750: [-1.94872567 -1.24804687 -0.53946725]
+OHC change l50yrs: [109.528946   131.54616937 152.67196548]
+*likely range
+cut=1957✓✓cut=1958✓✓cut=1959✓✓cut=1960✓✓cut=1961✓✓cut=1962✓✓cut=1963✓✓cut=1964✓✓cut=1965✓✓cut=1966✓✓cut=1967✓✓cut=1968✓✓cut=1969✓✓cut=1970✓✓cut=1971✓✓cut=1972✓✓cut=1973✓✓cut=1974✓✓cut=1975✓✓cut=1976✓✓cut=1977✓✓cut=1978✓✓cut=1979✓✓cut=1980✓✓cut=1981✓✓cut=1982✓✓cut=1983✓✓cut=1984✓✓cut=1985✓✓cut=1986✓✓cut=1987✓✓cut=1988✓✓cut=1989✓✓cut=1990✓✓cut=1991✓✓cut=1992✓✓cut=1993✓✓cut=1994✓✓cut=1995✓✓cut=1996✓✓cut=1997✓✓cut=1998✓✓cut=1999✓✓cut=2000✓✓cut=2001✓✓cut=2002✓✓cut=2003✓✓cut=2004✓✓cut=2005✓✓cut=2006✓✓cut=2007✓✓cut=2008✓✓cut=2009✓✓cut=2010✓✓cut=2011✓✓cut=2012✓✓cut=2013✓✓cut=2014✓✓cut=2015✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2015
+Doing reweighting...
+Number of effective samples: 340
+Constrained, reweighted parameters:
+ECS: [1.71379912 2.86046982 6.02798716]
+TCR: [1.2570431  1.75364455 2.63607217]
+CO2 concentration current: [396.6174561  398.12619742 399.69425986]
+Temperature l20yrs rel. 1850-1900: [0.74283361 0.84049466 0.9485471 ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.63328849 -0.30708946  0.09287269]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.62852795 -0.88375955 -0.03288952]
+Aerosol ERF 2005-2014 rel. 1750: [-1.8111813  -1.15735046 -0.38648413]
+OHC change l50yrs: [287.78725676 383.55613084 502.38973162]
+*likely range
+cut=2016✓✓cut=2017✓✓cut=2018✓✓cut=2019✓✓cut=2020✓✓cut=2021✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2021
+Doing reweighting...
+Number of effective samples: 345
+Constrained, reweighted parameters:
+ECS: [1.70127435 2.73444249 5.10599871]
+TCR: [1.26124645 1.69686196 2.38593271]
+CO2 concentration current: [414.98955075 416.46442384 417.97990046]
+Temperature l20yrs rel. 1850-1900: [0.84677903 0.94453219 1.06436551]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.65290584 -0.28322567  0.08271299]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.65472315 -0.90831942 -0.13273542]
+Aerosol ERF 2005-2014 rel. 1750: [-1.84541872 -1.18645365 -0.40046853]
+OHC change l50yrs: [290.01207992 436.37909351 606.52846032]
+*likely range
+cut=2022✓✓cut=2023✓✓cut=2024✓✓cut=2025✓✓cut=2026✓✓cut=2027✓✓cut=2028✓✓cut=2029✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2029
+Doing reweighting...
+Number of effective samples: 352
+Constrained, reweighted parameters:
+ECS: [1.57424747 2.40372351 4.57866456]
+TCR: [1.21286523 1.60084008 2.13127433]
+CO2 concentration current: [443.58182633 445.10257307 446.52283591]
+Temperature l20yrs rel. 1850-1900: [1.01961072 1.11681419 1.24920557]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.66675356 -0.26605323  0.11576731]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.70403055 -0.85614618 -0.09663797]
+Aerosol ERF 2005-2014 rel. 1750: [-1.88900981 -1.15175772 -0.38287978]
+OHC change l50yrs: [344.14900562 516.93287067 703.66463735]
+*likely range
+cut=2030✓✓cut=2031✓✓cut=2032✓✓cut=2033✓✓cut=2034✓✓cut=2035✓✓cut=2036✓✓cut=2037✓✓cut=2038✓✓cut=2039✓✓cut=2040✓✓cut=2041✓✓cut=2042✓✓cut=2043✓✓cut=2044✓✓cut=2045✓✓cut=2046✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2046
+Doing reweighting...
+Number of effective samples: 285
+Constrained, reweighted parameters:
+ECS: [1.59521361 2.27838916 3.53277782]
+TCR: [1.17884261 1.5531529  1.94579541]
+CO2 concentration current: [516.98500644 518.53668709 520.1203038 ]
+Temperature l20yrs rel. 1850-1900: [1.40399732 1.5165951  1.66471316]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.64865832 -0.27544698  0.09571548]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.60729606 -0.8024752  -0.01760393]
+Aerosol ERF 2005-2014 rel. 1750: [-1.79223953 -1.08610507 -0.34940833]
+OHC change l50yrs: [481.51399241 727.30144805 965.24052567]
+*likely range
+cut=2047✓✓cut=2048✓✓cut=2049✓✓cut=2050✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2050
+Doing reweighting...
+Number of effective samples: 230
+Constrained, reweighted parameters:
+ECS: [1.53006042 2.14740329 3.14874794]
+TCR: [1.16574218 1.5037001  1.78812018]
+CO2 concentration current: [536.3172672  537.86008934 539.6311386 ]
+Temperature l20yrs rel. 1850-1900: [1.5119193  1.61737792 1.71315674]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60467094 -0.2978263   0.07251505]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.45862959 -0.69102646 -0.07792583]
+Aerosol ERF 2005-2014 rel. 1750: [-1.65570456 -1.00672919 -0.43009038]
+OHC change l50yrs: [ 438.03233914  730.57922475 1037.37201536]
+*likely range
+cut=2051✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2051
+Doing reweighting...
+Number of effective samples: 213
+Constrained, reweighted parameters:
+ECS: [1.51924942 2.13545685 3.03071062]
+TCR: [1.15332165 1.51145666 1.76010668]
+CO2 concentration current: [541.36110544 543.04995043 544.73008349]
+Temperature l20yrs rel. 1850-1900: [1.55057568 1.63699316 1.723498  ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.54918908 -0.28294047  0.07929044]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.47046525 -0.68731131 -0.09381253]
+Aerosol ERF 2005-2014 rel. 1750: [-1.64168865 -0.9624162  -0.37276033]
+OHC change l50yrs: [ 479.78055312  730.19413414 1001.71606081]
+*likely range
+cut=2052✓✓cut=2053✓✓cut=2054✓✓cut=2055✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2055
+Doing reweighting...
+Number of effective samples: 180
+Constrained, reweighted parameters:
+ECS: [1.65010214 2.2250804  3.05429054]
+TCR: [1.23687603 1.51747073 1.74906486]
+CO2 concentration current: [561.74980039 563.47978327 565.21852136]
+Temperature l20yrs rel. 1850-1900: [1.66149882 1.7562994  1.81120491]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.58217329 -0.27048303  0.0312377 ]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.39717398 -0.66188926 -0.15095171]
+Aerosol ERF 2005-2014 rel. 1750: [-1.52623384 -0.97660963 -0.42018771]
+OHC change l50yrs: [ 568.51113779  796.85448711 1020.41249669]
+*likely range
+cut=2056✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2056
+Doing reweighting...
+Number of effective samples: 173
+Constrained, reweighted parameters:
+ECS: [1.66929475 2.15945874 3.02126864]
+TCR: [1.24320736 1.49825453 1.73638212]
+CO2 concentration current: [567.08974102 568.61574337 570.62467244]
+Temperature l20yrs rel. 1850-1900: [1.68940452 1.774193   1.83107558]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.58375292 -0.26594757  0.02663974]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.3866036  -0.69118951 -0.06364223]
+Aerosol ERF 2005-2014 rel. 1750: [-1.52925568 -1.00626353 -0.41869716]
+OHC change l50yrs: [ 579.90476451  782.58369585 1038.27065407]
+*likely range
+cut=2057✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2057
+Doing reweighting...
+Number of effective samples: 180
+Constrained, reweighted parameters:
+ECS: [1.66190203 2.19440241 3.01573508]
+TCR: [1.2495287  1.53181543 1.76339285]
+CO2 concentration current: [572.32985535 573.97837554 575.86047073]
+Temperature l20yrs rel. 1850-1900: [1.71626563 1.80048772 1.85998647]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.59209731 -0.24457719  0.05434979]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.40089958 -0.71073957 -0.10040058]
+Aerosol ERF 2005-2014 rel. 1750: [-1.58722618 -1.00672469 -0.44486744]
+OHC change l50yrs: [ 575.86223142  821.98913931 1039.14500468]
+*likely range
+cut=2058✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2058
+Doing reweighting...
+Number of effective samples: 169
+Constrained, reweighted parameters:
+ECS: [1.65907144 2.16701429 3.00084954]
+TCR: [1.21355146 1.52169389 1.74001148]
+CO2 concentration current: [577.71271722 579.55314049 581.25840065]
+Temperature l20yrs rel. 1850-1900: [1.74812997 1.8245908  1.88730389]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.59809839 -0.27265208  0.04587971]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.34981614 -0.67506764 -0.11124249]
+Aerosol ERF 2005-2014 rel. 1750: [-1.58987924 -0.96494102 -0.40345425]
+OHC change l50yrs: [ 603.24653749  840.74933052 1059.3106376 ]
+*likely range
+cut=2059✓✓cut=2060✓✓cut=2061Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2061
+Doing RMSE constraint...
+Passing RMSE constraint: 29431
+[13190 12740  4163  8070 22531  4599 28391 17794  8144 21814]
+[0.16999557 0.16999678 0.16999719 0.16999739 0.16999826 0.1699989
+ 0.16999919 0.16999932 0.16999975 0.16999997]
+[0.12601407 0.12675289 0.12741558 0.12915728 0.1301886  0.13022368
+ 0.13069529 0.13072581 0.13089392 0.13096738]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2061
+Doing reweighting...
+Number of effective samples: 138
+Constrained, reweighted parameters:
+ECS: [1.72992109 2.18001191 2.88019173]
+TCR: [1.27032794 1.53118682 1.73643942]
+CO2 concentration current: [594.10249006 595.73252556 597.71396881]
+Temperature l20yrs rel. 1850-1900: [1.82894594 1.91074974 1.95895692]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.53383864 -0.22712407  0.01372809]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.42411465 -0.66230398 -0.13853842]
+Aerosol ERF 2005-2014 rel. 1750: [-1.58387641 -0.94758523 -0.41784268]
+OHC change l50yrs: [ 649.61576077  889.77045659 1102.77424736]
+*likely range
+cut=2062✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2062
+Doing reweighting...
+Number of effective samples: 118
+Constrained, reweighted parameters:
+ECS: [1.68547291 2.14242276 2.85937378]
+TCR: [1.22932025 1.51409552 1.72034991]
+CO2 concentration current: [599.81645415 601.58960747 603.36408729]
+Temperature l20yrs rel. 1850-1900: [1.85414542 1.92860877 1.97832315]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.52971441 -0.24083456  0.05666991]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.39244732 -0.69096308 -0.12913276]
+Aerosol ERF 2005-2014 rel. 1750: [-1.51261833 -0.94407407 -0.43942609]
+OHC change l50yrs: [ 637.00586495  887.87415577 1101.45862751]
+*likely range
+cut=2063✓✓cut=2064✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2064
+Doing reweighting...
+Number of effective samples: 115
+Constrained, reweighted parameters:
+ECS: [1.68863475 2.1489386  2.80240415]
+TCR: [1.22978442 1.51217236 1.72726775]
+CO2 concentration current: [611.24258318 612.97611451 614.66267864]
+Temperature l20yrs rel. 1850-1900: [1.90023077 1.98865274 2.03814163]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.5183184  -0.25867237 -0.00285247]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.4016445  -0.69163366 -0.18612185]
+Aerosol ERF 2005-2014 rel. 1750: [-1.5283075  -1.00344154 -0.49913255]
+OHC change l50yrs: [ 667.7703218   860.53321019 1122.62427599]
+*likely range
+cut=2065Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2065
+Doing RMSE constraint...
+Passing RMSE constraint: 27567
+[22383 12553 22146 18223 19553  5118  8213 22166  1804  5717]
+[0.16999564 0.16999664 0.1699971  0.16999765 0.16999788 0.16999875
+ 0.16999886 0.1699989  0.16999894 0.16999922]
+[0.12635686 0.12654493 0.12721523 0.12943617 0.12966765 0.13030664
+ 0.13057721 0.13065393 0.13071495 0.13126971]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2065
+Doing reweighting...
+Number of effective samples: 127
+Constrained, reweighted parameters:
+ECS: [1.7272925  2.15103092 2.72294969]
+TCR: [1.27953172 1.52025581 1.74626635]
+CO2 concentration current: [617.03249543 618.68064843 620.53716395]
+Temperature l20yrs rel. 1850-1900: [1.93371532 2.02555751 2.07847079]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.55762041 -0.26373413  0.05057189]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.25377939 -0.66380544 -0.14407045]
+Aerosol ERF 2005-2014 rel. 1750: [-1.45200297 -0.94289991 -0.46266143]
+OHC change l50yrs: [ 698.2780007   877.63052776 1140.08730743]
+*likely range
+cut=2066✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2066
+Doing reweighting...
+Number of effective samples: 154
+Constrained, reweighted parameters:
+ECS: [1.69365976 2.22105252 2.7727042 ]
+TCR: [1.2513716  1.5230916  1.76056457]
+CO2 concentration current: [622.77014927 624.30425361 626.25738737]
+Temperature l20yrs rel. 1850-1900: [1.96808827 2.06739569 2.12439755]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.57141027 -0.27282246  0.02305805]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.27809366 -0.6568876  -0.1317998 ]
+Aerosol ERF 2005-2014 rel. 1750: [-1.49335352 -0.97631375 -0.40747176]
+OHC change l50yrs: [ 680.9647699   916.09258867 1137.7242743 ]
+*likely range
+cut=2067✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2067
+Doing reweighting...
+Number of effective samples: 119
+Constrained, reweighted parameters:
+ECS: [1.79752604 2.22213049 3.00162612]
+TCR: [1.28461957 1.53503248 1.76140321]
+CO2 concentration current: [628.60433527 630.5676074  632.19547809]
+Temperature l20yrs rel. 1850-1900: [2.00968753 2.09802993 2.14870687]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.5512967  -0.26864767  0.06489364]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.30058935 -0.64758365 -0.11568128]
+Aerosol ERF 2005-2014 rel. 1750: [-1.52484057 -0.89763626 -0.4155586 ]
+OHC change l50yrs: [ 716.60599516  909.92697227 1151.81846814]
+*likely range
+cut=2068Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2068
+Doing RMSE constraint...
+Passing RMSE constraint: 22637
+[11544 13067 20221 15078 16557  5254  9596 10512 17105  1271]
+[0.16999313 0.16999367 0.16999452 0.16999503 0.16999613 0.16999629
+ 0.1699968  0.16999708 0.16999735 0.16999854]
+[0.12731732 0.12792268 0.12973743 0.13216724 0.1323061  0.13244539
+ 0.1328893  0.13349839 0.13424611 0.13441249]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2068
+Doing reweighting...
+Number of effective samples: 114
+Constrained, reweighted parameters:
+ECS: [1.8153788  2.24509529 3.08491168]
+TCR: [1.32779339 1.53376875 1.75926627]
+CO2 concentration current: [634.55302393 636.23049173 637.93232447]
+Temperature l20yrs rel. 1850-1900: [2.03958186 2.12977135 2.18349799]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.50489162 -0.26800531  0.03917604]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.41612358 -0.66250565 -0.11024157]
+Aerosol ERF 2005-2014 rel. 1750: [-1.53425522 -0.89496057 -0.42340846]
+OHC change l50yrs: [ 735.60131766  956.46948281 1188.14667857]
+*likely range
+cut=2069✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2069
+Doing reweighting...
+Number of effective samples: 107
+Constrained, reweighted parameters:
+ECS: [1.83338034 2.29602017 3.02827796]
+TCR: [1.30352874 1.53847909 1.77087422]
+CO2 concentration current: [640.56636094 642.11468011 644.1203954 ]
+Temperature l20yrs rel. 1850-1900: [2.08351349 2.16652226 2.21162298]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.49004097 -0.27743028  0.05172583]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.2665811  -0.64555863 -0.11029726]
+Aerosol ERF 2005-2014 rel. 1750: [-1.520855   -0.87302892 -0.41775201]
+OHC change l50yrs: [ 743.94961065  964.07898177 1224.34655327]
+*likely range
+cut=2070✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2070
+Doing reweighting...
+Number of effective samples: 96
+Constrained, reweighted parameters:
+ECS: [1.76273028 2.23742272 2.90732786]
+TCR: [1.34207528 1.53854601 1.75241493]
+CO2 concentration current: [646.52601376 648.0232406  650.08677379]
+Temperature l20yrs rel. 1850-1900: [2.11523253 2.18975113 2.23556256]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.51167174 -0.27972369  0.06267375]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.26515184 -0.69314508 -0.13282362]
+Aerosol ERF 2005-2014 rel. 1750: [-1.44524859 -0.88034235 -0.42837664]
+OHC change l50yrs: [ 717.32629119  948.61960348 1227.92338919]
+*likely range
+cut=2071Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2071
+Doing RMSE constraint...
+Passing RMSE constraint: 22098
+[11252 14455 17405  4303  2688 17092 10764 12306    63  7765]
+[0.16999279 0.16999346 0.16999384 0.16999416 0.16999659 0.16999766
+ 0.16999829 0.16999834 0.16999923 0.16999945]
+[0.1266777  0.12762438 0.12956418 0.13172275 0.13202058 0.13210042
+ 0.13235769 0.13378106 0.13398794 0.13405813]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2071
+Doing reweighting...
+Number of effective samples: 87
+Constrained, reweighted parameters:
+ECS: [1.76298838 2.21997455 2.7078577 ]
+TCR: [1.31208983 1.52800953 1.72143961]
+CO2 concentration current: [652.72576049 654.40307849 656.23906993]
+Temperature l20yrs rel. 1850-1900: [2.13454996 2.21266996 2.26406392]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.51367753 -0.2820171   0.00183389]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.25556342 -0.63893783 -0.10415763]
+Aerosol ERF 2005-2014 rel. 1750: [-1.48577799 -0.88765578 -0.48048526]
+OHC change l50yrs: [ 739.43419019  955.13514875 1166.66630044]
+*likely range
+cut=2072✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2072
+Doing reweighting...
+Number of effective samples: 66
+Constrained, reweighted parameters:
+ECS: [1.78745037 2.22698522 2.70864814]
+TCR: [1.35629041 1.51907717 1.74452304]
+CO2 concentration current: [658.98344675 660.54974292 662.44000886]
+Temperature l20yrs rel. 1850-1900: [2.15695916 2.23730319 2.28482031]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.56728919 -0.30817359  0.00280635]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.11286573 -0.63698083 -0.10097252]
+Aerosol ERF 2005-2014 rel. 1750: [-1.34506577 -0.88274561 -0.54225353]
+OHC change l50yrs: [ 706.92244723  990.59506286 1240.4103749 ]
+*likely range
+cut=2073Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2073
+Doing RMSE constraint...
+Passing RMSE constraint: 21944
+[  923  5828  8547 11536  5691  1181   450   159  7495 12221]
+[0.16999328 0.16999525 0.16999537 0.16999691 0.16999812 0.16999863
+ 0.169999   0.16999967 0.16999989 0.16999997]
+[0.12638653 0.12730901 0.12944182 0.13120995 0.13169488 0.1317543
+ 0.13232839 0.13326271 0.13353596 0.13379037]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2073
+Doing reweighting...
+Number of effective samples: 65
+Constrained, reweighted parameters:
+ECS: [1.779028   2.21382188 2.70693409]
+TCR: [1.32925061 1.54009753 1.73128113]
+CO2 concentration current: [665.1980918  666.5180605  668.74850755]
+Temperature l20yrs rel. 1850-1900: [2.20456126 2.26510273 2.30628479]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.51412326 -0.26502451  0.06309385]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.25849488 -0.74835655 -0.23022943]
+Aerosol ERF 2005-2014 rel. 1750: [-1.48954271 -0.94889958 -0.5592922 ]
+OHC change l50yrs: [ 728.85551396  953.43227217 1217.12888261]
+*likely range
+cut=2074Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2074
+Doing RMSE constraint...
+Passing RMSE constraint: 20679
+[13083  8847  9165 11193 11401  9547  7803  7719 14422  3611]
+[0.16999411 0.16999463 0.16999524 0.16999565 0.16999581 0.16999748
+ 0.16999754 0.16999914 0.16999915 0.16999948]
+[0.12663263 0.12759872 0.13057739 0.1313386  0.13243793 0.13283544
+ 0.13309649 0.13349088 0.13405452 0.13425031]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2074
+Doing reweighting...
+Number of effective samples: 32
+Constrained, reweighted parameters:
+ECS: [1.74354122 2.12541508 2.69397885]
+TCR: [1.25498165 1.53269793 1.72631292]
+CO2 concentration current: [671.46154742 673.04649704 675.23500739]
+Temperature l20yrs rel. 1850-1900: [2.23189564 2.28155988 2.32201991]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60125915 -0.33848408 -0.07271207]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.05345592 -0.74574334 -0.07787184]
+Aerosol ERF 2005-2014 rel. 1750: [-1.35405856 -0.9545446  -0.4722371 ]
+OHC change l50yrs: [ 761.69892221  931.94228279 1113.62701533]
+*likely range
+cut=2075Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2075
+Doing RMSE constraint...
+Passing RMSE constraint: 19182
+[18102 14908 18675 10035  3089 10029  3853  4567  1378 13413]
+[0.16999222 0.16999383 0.16999547 0.16999673 0.16999711 0.16999746
+ 0.16999812 0.16999817 0.16999936 0.16999966]
+[0.12718155 0.12879763 0.13178622 0.13235001 0.13389308 0.13403815
+ 0.13411019 0.13426986 0.13468587 0.13493451]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2075
+Doing reweighting...
+Number of effective samples: 18
+Constrained, reweighted parameters:
+ECS: [1.63924965 2.05370688 2.62071698]
+TCR: [1.19615256 1.49498162 1.67234315]
+CO2 concentration current: [678.39891465 680.75254108 681.69467204]
+Temperature l20yrs rel. 1850-1900: [2.27193118 2.30793897 2.33297918]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.46433684 -0.29714652 -0.06192777]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.01737169 -0.63059775 -0.13842475]
+Aerosol ERF 2005-2014 rel. 1750: [-1.36563898 -0.80352212 -0.48369278]
+OHC change l50yrs: [ 706.57024681  864.12521075 1221.21451225]
+*likely range
+cut=2076✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2076
+Doing reweighting...
+Number of effective samples: 14
+Constrained, reweighted parameters:
+ECS: [1.63336092 2.14194673 2.65822084]
+TCR: [1.19521856 1.46154767 1.65154664]
+CO2 concentration current: [684.38589208 686.52626465 687.33357806]
+Temperature l20yrs rel. 1850-1900: [2.29683638 2.33933651 2.355313  ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.46313124 -0.32859391 -0.04853332]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.02072928 -0.66100356 -0.19775684]
+Aerosol ERF 2005-2014 rel. 1750: [-1.31895992 -0.8306469  -0.58292105]
+OHC change l50yrs: [ 741.85053381  909.61035102 1179.54235091]
+*likely range
+cut=2077Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2077
+Doing RMSE constraint...
+Passing RMSE constraint: 19093
+[18915 11443 18391 14909  6195  9193  7443 10426  3122 13941]
+[0.1699926  0.16999366 0.16999507 0.16999526 0.16999574 0.16999659
+ 0.16999765 0.1699978  0.16999907 0.16999966]
+[0.12669268 0.1288208  0.13123647 0.13227762 0.13354742 0.13358573
+ 0.13364219 0.13369743 0.13433706 0.13456065]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2077
+Doing reweighting...
+Number of effective samples: 7
+Traceback (most recent call last):
+  File "/oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_MPIESM370/constraining/03_reweight-rmse-posterior-multiple-constraints.py", line 397, in <module>
+    raise ValueError("Too few effective samples - need to increase the original number of samples.")
+ValueError: Too few effective samples - need to increase the original number of samples.

@@ -1,0 +1,59 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11666338
+##  Job Name : FAIR_Nvc
+##  Nodelist : node[2302-2307]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun  6 10:37:02 AM EDT 2025
+###############################################################################
+Starting job 44 on node2302
+environment: line 1: 1557209 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557530 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1563052 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560869 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558402 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1562475 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557854 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557831 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556788 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557946 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556780 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557001 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1562751 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558015 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557418 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556894 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557164 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558103 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557911 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557719 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1562727 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560252 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557235 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1559327 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1559084 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1559391 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560548 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1561636 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560765 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1561565 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557118 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557275 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558768 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556856 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558283 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1561068 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560378 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558164 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556916 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1561885 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560163 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1560876 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1558614 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 2028755 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1556820 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1557066 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 4444 seconds
+All done!
+slurmstepd: error: Detected 46 oom_kill events in StepId=11666338.batch. Some of the step tasks have been OOM Killed.

@@ -1,0 +1,495 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11628679
+##  Job Name : FAIR_Nv
+##  Nodelist : node2333
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 07:02:20 PM EDT 2025
+###############################################################################
+Starting job 1 on node2333
+environment: line 2: logs_Nv/log_ens1_cut1941.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1941.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1941.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1941.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1935.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1935.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1935.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1935.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1938.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1938.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1938.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1938.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1939.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1939.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1939.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1939.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1940.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1940.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1940.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1940.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1934.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1934.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1934.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1934.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1937.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1937.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1937.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1937.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1936.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1936.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1936.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1936.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1945.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1945.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1945.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1945.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1944.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1944.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1944.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1944.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1949.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1949.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1949.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1949.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1942.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1942.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1942.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1942.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1943.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1943.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1943.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1943.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1946.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1946.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1946.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1946.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1947.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1947.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1947.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1947.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1948.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1948.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1948.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1948.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1953.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1953.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1953.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1953.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1952.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1952.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1952.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1952.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1950.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1950.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1950.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1950.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1951.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1951.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1951.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1951.log: No such file or directory
+environment: line 2: logs_Nv/log_ens1_cut1954.log: No such file or directory
+environment: line 7: logs_Nv/log_ens1_cut1954.log: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 16: logs_Nv/log_ens1_cut1954.log: No such file or directory
+environment: line 17: logs_Nv/log_ens1_cut1954.log: No such file or directory
+Total time: 4 seconds
+All done!

@@ -27,6 +27,7 @@ data/output/*.nc
 # all plots
 plots/
 
+
 # all output (needs direct Zenodo upload)
 output/
 
@@ -148,7 +149,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+#.env
 .venv
 env/
 venv/

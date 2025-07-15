@@ -1,0 +1,21 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11728614
+##  Job Name : FAIR_Nvc
+##  Nodelist : node2352
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun 13 01:21:24 PM EDT 2025
+###############################################################################
+Starting job 60 on node2352
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1930
+Doing reweighting...
+Traceback (most recent call last):
+  File "/oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolcConst/constraining/03_reweight-rmse-posterior-multiple-constraints.py", line 139, in <module>
+    long_past_index = ((gen_orig_number(model_run,60)-1) // 20)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolcConst/constraining/03_reweight-rmse-posterior-multiple-constraints.py", line 56, in gen_orig_number
+    return recovered_order[new_member_number]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range

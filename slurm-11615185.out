@@ -1,0 +1,54 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11615185
+##  Job Name : FAIRc_M3
+##  Nodelist : node2411
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Thu May 29 01:28:31 AM EDT 2025
+###############################################################################
+Starting job  on node2411
+Running the priors (could take a while)...
+One of the processes failed, see error below (was something unable to be pickled?)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/concurrent/futures/process.py", line 261, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_MPIESM370/sampling/parallel.py", line 270, in run_fair
+    f.run(progress=False)
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/fair/fair.py", line 1412, in run
+    self.cumulative_emissions[1:, ...] = (
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/dataarray.py", line 931, in __setitem__
+    self.variable[key] = value
+    ~~~~~~~~~~~~~^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/variable.py", line 852, in __setitem__
+    indexing.set_with_indexer(indexable, index_tuple, value)
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/indexing.py", line 1039, in set_with_indexer
+    indexable[indexer] = value
+    ~~~~~~~~~^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/indexing.py", line 1585, in __setitem__
+    self._safe_setitem(array, key, value)
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/indexing.py", line 1568, in _safe_setitem
+    raise exc
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/xarray/core/indexing.py", line 1559, in _safe_setitem
+    array[key] = value
+    ~~~~~^^^^^
+ValueError: could not broadcast input array from shape (351,0,500,61) into shape (351,1,500,61)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_MPIESM370/sampling/./09_run-fair-ssp-prior-ensemble-ebm3-intvar.py", line 255, in <module>
+    res = _parallel_process(
+          ^^^^^^^^^^^^^^^^^^
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_MPIESM370/sampling/utils.py", line 160, in _parallel_process
+    rest = _run_parallel(
+           ^^^^^^^^^^^^^^
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_MPIESM370/sampling/utils.py", line 67, in _run_parallel
+    raise future.exception()
+ValueError: could not broadcast input array from shape (351,0,500,61) into shape (351,1,500,61)
+ERROR in final sampling for cutoff

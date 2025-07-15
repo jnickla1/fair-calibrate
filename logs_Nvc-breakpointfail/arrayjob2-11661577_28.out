@@ -1,0 +1,21 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11664553
+##  Job Name : FAIR_Nvc
+##  Nodelist : node[1911,1920,1922-1923,1925,1931]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Thu Jun  5 10:21:57 PM EDT 2025
+###############################################################################
+Starting job 28 on node1911
+rm: cannot remove '/logs_Nv/arrayjob-*_28.out': No such file or directory
+environment: line 5: 1019241 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1025815 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1026262 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1040653 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1045795 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1046333 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1033852 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1050588 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+slurmstepd: error: *** JOB 11664553 ON node1911 CANCELLED AT 2025-06-05T23:21:58 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 8 oom_kill events in StepId=11664553.batch. Some of the step tasks have been OOM Killed.

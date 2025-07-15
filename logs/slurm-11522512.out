@@ -1,0 +1,105 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11522512
+##  Job Name : run_mult2
+##  Nodelist : node2411
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Mon May 19 10:31:45 AM EDT 2025
+###############################################################################
+>>> Constraining with cutoff year = 1930
+0
+1
+2
+3
+4
+####  • constraining/05_constrained-ssp-projections.py####
+0
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py:103: DeprecationWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  f.emissions = fe.drop("config") * np.ones((1, 1, output_ensemble_size, 1))
+Running SSP scenarios...
+Anomalies rel. 1995-2014:
+[[0.40567275 0.70417103 1.11944886]
+ [0.4409081  0.89135184 1.53492768]
+ [0.21412216 0.71887448 1.52049847]
+ [0.4233582  0.71806959 1.11625769]
+ [0.58065414 1.04381697 1.70639404]
+ [0.4436427  1.02921726 1.90351805]
+ [0.43114678 0.6902396  1.05661707]
+ [0.74453817 1.15236065 1.76319816]
+ [1.05838824 1.76976269 2.85110537]
+ [0.440868   0.68828164 1.0448337 ]
+ [0.82735154 1.17977026 1.71610453]
+ [1.68262908 2.41946232 3.4987836 ]
+ [0.46619989 0.74328565 1.1197576 ]
+ [0.97601619 1.43934352 2.14895414]
+ [2.19419757 3.23880169 4.75822178]]
+
+Anomalies rel. 1850-1900:
+[[1.28496692 1.53946245 1.88667676]
+ [1.33437893 1.72498798 2.31511755]
+ [1.12396641 1.56346381 2.30668334]
+ [1.30491453 1.55263728 1.89386601]
+ [1.4797885  1.87925247 2.4799113 ]
+ [1.36697854 1.8903243  2.71378417]
+ [1.30755255 1.53305491 1.83677023]
+ [1.61634827 1.99205228 2.53043702]
+ [1.96508319 2.61113407 3.67031657]
+ [1.31429016 1.53010193 1.81873151]
+ [1.68824238 2.01701339 2.47808553]
+ [2.54232247 3.25200765 4.26769427]
+ [1.34707694 1.58372103 1.90448841]
+ [1.85211663 2.27974171 2.92753529]
+ [3.07100787 4.06640073 5.58004172]]
+
+Methane forcing 2019: [0.44941007 0.56080455 0.6736836 ]
+Methane concentration 2019: [1864.90607865 1874.9408032  1886.81183907]
+WMGHG forcing 2019: [3.03473409 3.31466486 3.62425657]
+5
+####  • constraining/06_check-tcre-af.py####
+38
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./06_check-tcre-af.py:49: DeprecationWarning: `in1d` is deprecated. Use `np.isin` instead.
+  idx = np.in1d(pass1, pass2).nonzero()[0]
+temperature 2xCO2: [1.45000734 1.89773251 2.51719982]
+temperature 4xCO2: [3.31663695 4.39197967 6.05248406]
+TCRE @1000GtC: [1.18007116 1.54915517 2.05814749]
+AF 2xCO2*: [0.4721193  0.48335919 0.49458262]
+AF 4xCO2*: [0.48088691 0.55490284 0.59518814]
+TCRE (IPCC method)*: [1.26152814 1.5055081  1.83699832]
+*likely range
+6
+####  • constraining/07_three-panel-plot.py####
+40
+7
+####  • constraining/08_prior-posterior-constrained.py####
+41
+>>> Constraining with cutoff year = 1931
+0
+1
+2
+3
+4
+####  • constraining/05_constrained-ssp-projections.py####
+42
+Running SSP scenarios...
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py", line 64, in <module>
+    df_configs = pd.read_csv(
+                 ^^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../../../../output/fair-2.1.3/v1.4/all-2022_hadcrut5_currentcut1931/posteriors/calibrated_constrained_parameters.csv'
+ERROR in constraining/05_constrained-ssp-projections.py for cutoff 1931

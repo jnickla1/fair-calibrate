@@ -1,0 +1,393 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11119747
+##  Job Name : run
+##  Nodelist : node2431
+##      CPUs : 40
+##  Mem/Node : 16384 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Tue Apr 22 05:16:53 PM EDT 2025
+###############################################################################
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `.env': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `debugging,': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `runs,': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `plots?': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `bar?': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `(good': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `interactive,': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `jobs)': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `(a': not a valid identifier
+/var/spool/slurmd/job11119747/slurm_script: line 10: export: `directory)': not a valid identifier
+Making nice 4xCO2 data...
+Running R script for 3 layer model calibrations...
+[1] "Success! Convergence achieved in 5170 iterations."
+[1] "Success! Convergence achieved in 5364 iterations."
+[1] "Success! Convergence achieved in 5397 iterations."
+[1] "Success! Convergence achieved in 4228 iterations."
+[1] "Success! Convergence achieved in 4814 iterations."
+[1] "Success! Convergence achieved in 5232 iterations."
+[1] "Success! Convergence achieved in 4380 iterations."
+[1] "Success! Convergence achieved in 5851 iterations."
+[1] "Success! Convergence achieved in 4660 iterations."
+[1] "Success! Convergence achieved in 6811 iterations."
+[1] "Success! Convergence achieved in 4118 iterations."
+[1] "Success! Convergence achieved in 4455 iterations."
+[1] "Success! Convergence achieved in 4548 iterations."
+CNRM-CM6-1 did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-05
+[1] "Success! Convergence achieved in 9184 iterations."
+[1] "Success! Convergence achieved in 11434 iterations."
+[1] "Success! Convergence achieved in 4720 iterations."
+[1] "Success! Convergence achieved in 4623 iterations."
+[1] "Success! Convergence achieved in 6120 iterations."
+[1] "Success! Convergence achieved in 3563 iterations."
+[1] "Success! Convergence achieved in 4321 iterations."
+[1] "Success! Convergence achieved in 4808 iterations."
+[1] "Success! Convergence achieved in 6024 iterations."
+[1] "Success! Convergence achieved in 7519 iterations."
+[1] "Success! Convergence achieved in 4464 iterations."
+ [1] "Success! Convergence achieved in 6289 iterations."                       
+ [2] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [3] "Variance of the prediction error can not be computed."                   
+ [4] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [5] "Determinant of the variance of the prediction error can not be computed."
+ [6] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [7] "Variance of the prediction error can not be computed."                   
+ [8] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [9] "Determinant of the variance of the prediction error can not be computed."
+[10] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[11] "Variance of the prediction error can not be computed."                   
+[12] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[13] "Determinant of the variance of the prediction error can not be computed."
+[1] "Success! Convergence achieved in 8048 iterations."
+[1] "Success! Convergence achieved in 7805 iterations."                       
+[2] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[3] "Variance of the prediction error can not be computed."                   
+[4] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[5] "Determinant of the variance of the prediction error can not be computed."
+[1] "Success! Convergence achieved in 5302 iterations."
+[1] "Success! Convergence achieved in 14603 iterations."
+FIO-ESM-2-0 did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-05
+FIO-ESM-2-0 did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-04
+FIO-ESM-2-0 did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  0.001
+ [1] "Success! Convergence achieved in 9746 iterations."                       
+ [2] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [3] "Variance of the prediction error can not be computed."                   
+ [4] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [5] "Determinant of the variance of the prediction error can not be computed."
+ [6] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [7] "Variance of the prediction error can not be computed."                   
+ [8] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [9] "Determinant of the variance of the prediction error can not be computed."
+[10] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[11] "Variance of the prediction error can not be computed."                   
+[12] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[13] "Determinant of the variance of the prediction error can not be computed."
+[14] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[15] "Variance of the prediction error can not be computed."                   
+[16] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[17] "Determinant of the variance of the prediction error can not be computed."
+[18] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[19] "Variance of the prediction error can not be computed."                   
+[20] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[21] "Determinant of the variance of the prediction error can not be computed."
+[22] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[23] "Variance of the prediction error can not be computed."                   
+[24] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[25] "Determinant of the variance of the prediction error can not be computed."
+[26] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[27] "Variance of the prediction error can not be computed."                   
+[28] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[29] "Determinant of the variance of the prediction error can not be computed."
+[30] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[31] "Variance of the prediction error can not be computed."                   
+[32] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[33] "Determinant of the variance of the prediction error can not be computed."
+[34] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[35] "Variance of the prediction error can not be computed."                   
+[36] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[37] "Determinant of the variance of the prediction error can not be computed."
+[38] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[39] "Variance of the prediction error can not be computed."                   
+[40] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[41] "Determinant of the variance of the prediction error can not be computed."
+[42] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[43] "Variance of the prediction error can not be computed."                   
+[44] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[45] "Determinant of the variance of the prediction error can not be computed."
+[46] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[47] "Variance of the prediction error can not be computed."                   
+[48] "Warning: Cholesky factorization 'dpotrf' exited with status: 2"          
+[49] "Determinant of the variance of the prediction error can not be computed."
+[50] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[51] "Variance of the prediction error can not be computed."                   
+[52] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[53] "Determinant of the variance of the prediction error can not be computed."
+[1] "Success! Convergence achieved in 13746 iterations."
+[1] "Success! Convergence achieved in 6336 iterations."
+[1] "Success! Convergence achieved in 4587 iterations."
+[1] "Success! Convergence achieved in 6688 iterations."
+[1] "Success! Convergence achieved in 5328 iterations."
+[1] "Success! Convergence achieved in 8293 iterations."
+[1] "Success! Convergence achieved in 4571 iterations."
+[1] "Success! Convergence achieved in 6157 iterations."                       
+[2] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[3] "Variance of the prediction error can not be computed."                   
+[4] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[5] "Determinant of the variance of the prediction error can not be computed."
+[6] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[7] "Variance of the prediction error can not be computed."                   
+[8] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[9] "Determinant of the variance of the prediction error can not be computed."
+[1] "Success! Convergence achieved in 7415 iterations."
+[1] "Success! Convergence achieved in 15982 iterations."
+[1] "Success! Convergence achieved in 6423 iterations."
+[1] "Success! Convergence achieved in 4547 iterations."
+[1] "Success! Convergence achieved in 4220 iterations."
+[1] "Success! Convergence achieved in 7238 iterations."
+[1] "Success! Convergence achieved in 6402 iterations."
+[1] "Success! Convergence achieved in 4474 iterations."
+[1] "Success! Convergence achieved in 6129 iterations."
+[1] "Success! Convergence achieved in 5116 iterations."
+MIROC-ES2L did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-05
+[1] "Success! Convergence achieved in 13755 iterations."
+[1] "Success! Convergence achieved in 14023 iterations."
+[1] "Success! Convergence achieved in 5200 iterations."
+[1] "Success! Convergence achieved in 7008 iterations."
+[1] "Success! Convergence achieved in 4452 iterations."
+[1] "Success! Convergence achieved in 5132 iterations."
+[1] "Success! Convergence achieved in 4374 iterations."
+[1] "Success! Convergence achieved in 4530 iterations."
+[1] "Success! Convergence achieved in 4844 iterations."
+[1] "Success! Convergence achieved in 3900 iterations."
+[1] "Success! Convergence achieved in 4885 iterations."
+[1] "Success! Convergence achieved in 12925 iterations."
+[1] "Success! Convergence achieved in 4997 iterations."
+ [1] "Success! Convergence achieved in 1671 iterations."                       
+ [2] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [3] "Variance of the prediction error can not be computed."                   
+ [4] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [5] "Determinant of the variance of the prediction error can not be computed."
+ [6] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [7] "Variance of the prediction error can not be computed."                   
+ [8] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+ [9] "Determinant of the variance of the prediction error can not be computed."
+[10] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[11] "Variance of the prediction error can not be computed."                   
+[12] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[13] "Determinant of the variance of the prediction error can not be computed."
+[14] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[15] "Variance of the prediction error can not be computed."                   
+[16] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[17] "Determinant of the variance of the prediction error can not be computed."
+[18] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[19] "Variance of the prediction error can not be computed."                   
+[20] "Warning: Cholesky factorization 'dpotrf' exited with status: 1"          
+[21] "Determinant of the variance of the prediction error can not be computed."
+NorESM2-MM did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-05
+NorESM2-MM did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  1e-04
+NorESM2-MM did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  0.001
+NorESM2-MM did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.Trying again with more liberal quadratic penalty (alpha) =  0.01
+NorESM2-MM did not converge or ran out of iterations
+Here's the original error message from FitKalman:
+Iterations exhausted.This isn't going to work, is it? I'm giving up for NorESM2-MM
+I am excluding NorESM2-MM  from my table of results.
+[1] "Success! Convergence achieved in 3983 iterations."
+[1] "Success! Convergence achieved in 6142 iterations."
+[1] "Success! Convergence achieved in 6190 iterations."
+Warning messages:
+1: In sqrt(diag(vcov)) : NaNs produced
+2: In sqrt(diag(vcov)) : NaNs produced
+3: In sqrt(diag(vcov)) : NaNs produced
+4: In sqrt(diag(vcov)) : NaNs produced
+5: In sqrt(diag(vcov)) : NaNs produced
+6: In sqrt(diag(vcov)) : NaNs produced
+Converting EBM parameters to IRM parameters...
+ACCESS-CM2 & 0.67 & 2.81 & 0.68 & 3.73 & 11.6 & 86 & 1.35 & 1.62 & 0.53 & 0.45 & 7.19 & 5.36 & 2.48 \\
+ACCESS-ESM1-5 & 0.70 & 3.58 & 0.84 & 3.77 & 8.9 & 87 & 1.56 & 2.74 & 0.60 & 0.64 & 6.56 & 4.69 & 2.00 \\
+AWI-CM-1-1-MR & 1.22 & 1.79 & 0.66 & 4.14 & 11.0 & 47 & 1.32 & 3.97 & 0.65 & 0.94 & 8.02 & 3.28 & 2.17 \\
+BCC-CSM2-MR & 1.06 & 2.13 & 0.85 & 4.16 & 11.8 & 63 & 1.25 & 2.30 & 0.34 & 0.54 & 6.71 & 3.15 & 1.87 \\
+BCC-ESM1 & 0.88 & 1.48 & 0.91 & 5.35 & 15.8 & 77 & 1.29 & 1.88 & 0.31 & 0.39 & 6.25 & 3.53 & 1.91 \\
+CAMS-CSM1-0 & 1.90 & 5.48 & 0.64 & 2.57 & 9.2 & 53 & 1.29 & 26.83 & 0.45 & 2.64 & 8.95 & 2.36 & 1.73 \\
+CAS-ESM2-0 & 0.93 & 2.50 & 0.67 & 3.56 & 8.6 & 55 & 1.33 & 1.89 & 0.41 & 0.52 & 6.97 & 3.74 & 2.18 \\
+CESM2 & 0.65 & 3.88 & 0.90 & 4.83 & 6.4 & 71 & 1.68 & 2.80 & 0.49 & 0.71 & 8.18 & 6.29 & 2.49 \\
+CESM2-FV2 & 0.54 & 4.01 & 1.01 & 3.86 & 7.0 & 86 & 1.75 & 2.71 & 0.61 & 0.88 & 7.36 & 6.84 & 2.24 \\
+CESM2-WACCM & 0.72 & 7.33 & 0.84 & 3.82 & 6.2 & 85 & 1.59 & 2.98 & 0.51 & 0.70 & 8.07 & 5.60 & 2.31 \\
+CESM2-WACCM-FV2 & 0.56 & 3.52 & 0.94 & 3.39 & 9.5 & 107 & 1.50 & 2.89 & 0.53 & 0.94 & 6.73 & 5.98 & 2.16 \\
+CIESM & 0.68 & 2.65 & 1.00 & 5.28 & 11.6 & 69 & 1.35 & 0.81 & 0.55 & 0.36 & 8.48 & 6.26 & 2.69 \\
+CMCC-CM2-SR5 & 1.08 & 2.14 & 0.72 & 3.47 & 11.6 & 53 & 1.29 & 26.25 & 0.80 & 2.73 & 8.07 & 3.74 & 2.30 \\
+CNRM-CM6-1 & 0.77 & 1.58 & 0.67 & 3.20 & 15.9 & 115 & 0.91 & 23.86 & 0.47 & 1.67 & 7.31 & 4.72 & 2.66 \\
+CNRM-CM6-1-HR & 0.94 & 1.99 & 0.65 & 4.16 & 11.8 & 90 & 0.80 & 7.10 & 0.48 & 0.69 & 7.70 & 4.10 & 2.57 \\
+CNRM-ESM2-1 & 0.68 & 2.62 & 0.69 & 3.53 & 7.6 & 104 & 0.83 & 4.67 & 0.50 & 0.89 & 5.90 & 4.35 & 2.39 \\
+CanESM5 & 0.62 & 2.48 & 0.61 & 3.63 & 10.6 & 73 & 1.12 & 2.62 & 0.48 & 0.42 & 7.33 & 5.93 & 2.92 \\
+E3SM-1-0 & 0.58 & 2.37 & 0.37 & 3.65 & 9.6 & 42 & 1.49 & 3.07 & 0.60 & 0.91 & 7.05 & 6.03 & 3.10 \\
+EC-Earth3 & 0.82 & 2.67 & 0.57 & 3.18 & 10.4 & 34 & 1.24 & 26.93 & 0.73 & 2.33 & 7.11 & 4.33 & 2.53 \\
+EC-Earth3-Veg & 0.84 & 2.27 & 0.61 & 3.23 & 10.4 & 31 & 1.26 & 26.49 & 0.68 & 2.69 & 7.49 & 4.46 & 2.65 \\
+FGOALS-f3-L & 1.44 & 5.72 & 0.72 & 1.92 & 10.2 & 71 & 1.50 & 28.81 & 0.62 & 2.70 & 9.33 & 3.23 & 2.02 \\
+FGOALS-g3 & 1.26 & 2.84 & 0.91 & 4.07 & 7.8 & 91 & 1.26 & 1.20 & 0.44 & 0.24 & 7.65 & 3.04 & 1.86 \\
+FIO-ESM-2-0 & 0.87 & 4.91 & 0.86 & 2.90 & 8.4 & 91 & 1.31 & 26.44 & 0.60 & 1.64 & 8.13 & 4.66 & 2.31 \\
+GFDL-CM4 & 1.00 & 2.42 & 1.42 & 5.32 & 0.2 & 81 & 1.81 & 2.73 & 0.71 & 0.96 & 9.02 & 4.49 & 2.19 \\
+GFDL-ESM4 & 1.38 & 1.92 & 0.84 & 4.32 & 10.6 & 124 & 1.02 & 4.32 & 0.49 & 1.07 & 7.36 & 2.66 & 1.79 \\
+GISS-E2-1-G & 1.44 & 2.09 & 1.20 & 3.59 & 10.6 & 163 & 1.09 & 2.89 & 0.66 & 0.53 & 8.02 & 2.78 & 1.76 \\
+GISS-E2-1-H & 1.11 & 4.31 & 0.78 & 2.24 & 9.7 & 78 & 1.19 & 3.62 & 0.59 & 0.55 & 7.20 & 3.25 & 1.93 \\
+GISS-E2-2-G & 1.97 & 1.92 & 0.63 & 3.60 & 11.3 & 314 & 0.44 & 2.39 & 0.54 & 0.54 & 8.04 & 2.04 & 1.68 \\
+HadGEM3-GC31-LL & 0.61 & 2.85 & 0.64 & 3.87 & 9.3 & 66 & 1.17 & 3.13 & 0.61 & 0.46 & 7.22 & 5.91 & 2.83 \\
+HadGEM3-GC31-MM & 0.65 & 2.01 & 0.69 & 3.40 & 14.1 & 65 & 1.04 & 3.13 & 0.43 & 0.50 & 7.16 & 5.54 & 2.77 \\
+IITM-ESM & 1.99 & 2.80 & 1.00 & 3.76 & 12.0 & 150 & 1.06 & 2.95 & 0.54 & 1.15 & 9.43 & 2.37 & 1.67 \\
+INM-CM4-8 & 1.58 & 1.90 & 0.55 & 4.35 & 9.8 & 22 & 1.45 & 2.51 & 0.26 & 0.44 & 5.94 & 1.88 & 1.41 \\
+INM-CM5-0 & 1.54 & 1.90 & 0.58 & 4.58 & 11.4 & 49 & 1.45 & 1.92 & 0.32 & 0.44 & 6.23 & 2.02 & 1.42 \\
+IPSL-CM6A-LR & 0.72 & 1.76 & 0.48 & 3.40 & 13.2 & 62 & 1.28 & 3.22 & 0.49 & 0.90 & 7.05 & 4.90 & 2.70 \\
+KACE-1-0-G & 0.73 & 3.63 & 0.87 & 2.54 & 8.7 & 101 & 1.25 & 2.08 & 0.35 & 0.36 & 7.80 & 5.36 & 2.50 \\
+KIOST-ESM & 0.93 & 3.05 & 0.95 & 2.15 & 9.6 & 95 & 1.41 & 2.35 & 0.32 & 0.61 & 7.22 & 3.87 & 1.99 \\
+MIROC-ES2L & 1.95 & 1.71 & 0.70 & 4.56 & 16.6 & 204 & 0.45 & 1.95 & 0.95 & 0.71 & 8.81 & 2.25 & 1.78 \\
+MIROC6 & 2.00 & 1.20 & 0.60 & 4.27 & 22.9 & 350 & 0.38 & 1.86 & 0.89 & 0.71 & 8.57 & 2.15 & 1.71 \\
+MPI-ESM-1-2-HAM & 1.30 & 2.14 & 0.97 & 4.93 & 14.6 & 105 & 1.38 & 2.54 & 0.49 & 0.55 & 8.48 & 3.27 & 1.94 \\
+MPI-ESM1-2-HR & 1.17 & 1.59 & 1.11 & 5.12 & 23.6 & 73 & 1.56 & 3.49 & 0.44 & 0.57 & 7.82 & 3.34 & 1.89 \\
+MPI-ESM1-2-LR & 1.40 & 1.95 & 1.07 & 5.15 & 10.7 & 95 & 1.26 & 2.40 & 0.71 & 0.47 & 8.93 & 3.19 & 2.01 \\
+MRI-ESM2-0 & 1.11 & 2.85 & 1.25 & 4.24 & 10.5 & 94 & 1.33 & 2.99 & 0.52 & 0.98 & 7.56 & 3.41 & 1.80 \\
+NESM3 & 0.96 & 1.05 & 0.48 & 2.49 & 19.2 & 126 & 0.72 & 2.80 & 0.27 & 0.55 & 8.15 & 4.23 & 2.85 \\
+NorCPM1 & 1.03 & 2.07 & 1.33 & 5.72 & 17.6 & 92 & 1.51 & 1.81 & 0.50 & 0.49 & 7.26 & 3.52 & 1.75 \\
+NorESM2-LM & 1.64 & 2.54 & 1.54 & 4.52 & 0.1 & 120 & 1.32 & 1.66 & 0.72 & 1.31 & 8.60 & 2.62 & 1.65 \\
+SAM0-UNICON & 1.04 & 2.69 & 1.03 & 4.63 & 6.3 & 111 & 1.25 & 2.44 & 0.64 & 0.80 & 8.36 & 4.01 & 2.20 \\
+TaiESM1 & 0.87 & 2.31 & 0.92 & 5.06 & 9.0 & 91 & 1.23 & 2.04 & 0.69 & 0.46 & 8.15 & 4.67 & 2.44 \\
+UKESM1-0-LL & 0.66 & 2.60 & 0.61 & 2.92 & 11.3 & 73 & 1.13 & 3.55 & 0.44 & 0.50 & 7.38 & 5.63 & 2.84 \\
+Downloading data from 'https://zenodo.org/records/10006301/files/Guetschow_et_al_2023b-PRIMAP-hist_v2.5_final_no_rounding_15-Oct-2023.csv' to file '/oscar/scratch/jnickla1/fair/4998cdf9a3a96cde8b0b725ab234f81b-Guetschow_et_al_2023b-PRIMAP-hist_v2.5_final_no_rounding_15-Oct-2023.csv'.
+Getting PRIMAP data...
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_1997.hdf5' to file '/oscar/scratch/jnickla1/fair/1b9c53d7952ba824ab987035616a624c-GFED4.1s_1997.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_1998.hdf5' to file '/oscar/scratch/jnickla1/fair/a6fe04f045070ee93d5470028a1cf64e-GFED4.1s_1998.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_1999.hdf5' to file '/oscar/scratch/jnickla1/fair/7018a0ff75ee8fd90c42eec2e6a4d5ab-GFED4.1s_1999.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2000.hdf5' to file '/oscar/scratch/jnickla1/fair/d9fec35aacbbe1e2b716709dac4fed68-GFED4.1s_2000.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2001.hdf5' to file '/oscar/scratch/jnickla1/fair/b1139a49de20530a9bb7bd9fe84e2213-GFED4.1s_2001.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2002.hdf5' to file '/oscar/scratch/jnickla1/fair/a1961884b6f41982e8779771f6569e59-GFED4.1s_2002.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2003.hdf5' to file '/oscar/scratch/jnickla1/fair/e0874c02cb0ef8f9b52a4a0aa74f9857-GFED4.1s_2003.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2004.hdf5' to file '/oscar/scratch/jnickla1/fair/00a479f1ae93c9ccce65f7430c267859-GFED4.1s_2004.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2005.hdf5' to file '/oscar/scratch/jnickla1/fair/1aadc3ad47a9361088ddeae2889c55ad-GFED4.1s_2005.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2006.hdf5' to file '/oscar/scratch/jnickla1/fair/00c9b9087763a497865ae5eda541daa0-GFED4.1s_2006.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2007.hdf5' to file '/oscar/scratch/jnickla1/fair/256ce8e3f8f7d3504fd502e9f6c984a2-GFED4.1s_2007.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2008.hdf5' to file '/oscar/scratch/jnickla1/fair/d3953af5a96686db97d7816b9881a4a6-GFED4.1s_2008.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2009.hdf5' to file '/oscar/scratch/jnickla1/fair/89b24436a5f69fb93241a065d844a17c-GFED4.1s_2009.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2010.hdf5' to file '/oscar/scratch/jnickla1/fair/8c3889ed93a3b28307155eb6a20724be-GFED4.1s_2010.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2011.hdf5' to file '/oscar/scratch/jnickla1/fair/ab7d777f1b466341cfe35a56d7aad15e-GFED4.1s_2011.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2012.hdf5' to file '/oscar/scratch/jnickla1/fair/47839d531a64549975de69e9ba64eb27-GFED4.1s_2012.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2013.hdf5' to file '/oscar/scratch/jnickla1/fair/9b5f8b7095e73ddc1af2714f76630391-GFED4.1s_2013.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2014.hdf5' to file '/oscar/scratch/jnickla1/fair/391d7333c9115a7234e9288c03d6c4ae-GFED4.1s_2014.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2015.hdf5' to file '/oscar/scratch/jnickla1/fair/79e6c3606d2017d69bd77ba3c26a4ecd-GFED4.1s_2015.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2016.hdf5' to file '/oscar/scratch/jnickla1/fair/28c9c295ffc1fed02b26fb9e69680c27-GFED4.1s_2016.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2017_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/05c5e2568a33b3cbeaa440584005292a-GFED4.1s_2017_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2018_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/0242dc2e5be5eaafd460731adbdb6d28-GFED4.1s_2018_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2019_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/a510f59ac07b4cde9cd85f9712613915-GFED4.1s_2019_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2020_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/11aa4fe05800a04337f8e8dd7810ca27-GFED4.1s_2020_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2021_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/a4cefe63641ea8102bbb914cae01e5aa-GFED4.1s_2021_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/GFED4.1s_2022_beta.hdf5' to file '/oscar/scratch/jnickla1/fair/eaf9f9d98d842d539a1474b86082527e-GFED4.1s_2022_beta.hdf5'.
+Downloading data from 'https://www.geo.vu.nl/~gwerf/GFED/GFED4/ancill/GFED4_Emission_Factors.txt' to file '/oscar/scratch/jnickla1/fair/8b3342c9c9e6a4deb38a8576ec04843d-GFED4_Emission_Factors.txt'.
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5/calibration/./05_get-gfed-emissions.py:90: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  efs = pd.read_csv(
+Getting GFED data...
+[[6.05880707e+03 5.95110042e+03 4.56516052e+03 ... 4.02663307e+03
+  4.39033080e+03 3.32541162e+03]
+ [3.03199204e+03 2.89289675e+03 2.22675170e+03 ... 1.95754281e+03
+  2.12262022e+03 1.61723903e+03]
+ [1.00952568e+04 9.80862444e+03 7.58979063e+03 ... 6.64918238e+03
+  7.15593915e+03 5.49945142e+03]
+ ...
+ [2.04808944e+00 1.71651457e+00 1.23963623e+00 ... 1.08693472e+00
+  1.12870716e+00 9.13056741e-01]
+ [4.42292916e+00 4.34430331e+00 3.33256718e+00 ... 2.93944214e+00
+  3.20494148e+00 2.42755048e+00]
+ [2.96116950e+00 2.69412973e+00 1.83023867e+00 ... 1.80337132e+00
+  2.17020216e+00 1.41097104e+00]]
+Making SLCF emissions...
+Making SLCF emissions...
+Downloading data from 'https://zenodo.org/records/4589756/files/rcmip-emissions-annual-means-v5-1-0.csv' to file '/oscar/scratch/jnickla1/fair/f6ba8f3e114346174f17195690631b41-rcmip-emissions-annual-means-v5-1-0.csv'.
+Calculating historical equivalent emissions...
+Combining GCP, CEDS, PRIMAP, GFED data into one file...
+         Model              Scenario  ...         2021         2022
+0   Historical  GCP+CEDS+PRIMAP+GFED  ...    36.817125    37.150372
+1   Historical  GCP+CEDS+PRIMAP+GFED  ...     4.321646     4.310019
+2   Historical  GCP+CEDS+PRIMAP+GFED  ...   380.812635   378.405896
+3   Historical  GCP+CEDS+PRIMAP+GFED  ...    11.947988    11.675409
+4   Historical  GCP+CEDS+PRIMAP+GFED  ...      9.55623     9.788947
+5   Historical  GCP+CEDS+PRIMAP+GFED  ...     0.164883     0.175691
+6   Historical  GCP+CEDS+PRIMAP+GFED  ...    72.315118    76.861223
+7   Historical  GCP+CEDS+PRIMAP+GFED  ...    839.08517   758.190637
+8   Historical  GCP+CEDS+PRIMAP+GFED  ...   205.076396   188.408051
+9   Historical  GCP+CEDS+PRIMAP+GFED  ...   122.898373   131.678232
+10  Historical  GCP+CEDS+PRIMAP+GFED  ...     6.871947     6.701702
+11  Historical  GCP+CEDS+PRIMAP+GFED  ...    33.619623     25.61281
+12  Historical  GCP+CEDS+PRIMAP+GFED  ...    66.400232    65.232056
+13  Historical  GCP+CEDS+PRIMAP+GFED  ...    57.118825    57.118825
+14  Historical  GCP+CEDS+PRIMAP+GFED  ...    28.023867    28.023867
+15  Historical  GCP+CEDS+PRIMAP+GFED  ...     6.298342     6.298342
+16  Historical  GCP+CEDS+PRIMAP+GFED  ...     2.763164     2.763164
+17  Historical  GCP+CEDS+PRIMAP+GFED  ...     2.102991     2.102991
+18  Historical  GCP+CEDS+PRIMAP+GFED  ...   350.935915   350.935915
+19  Historical  GCP+CEDS+PRIMAP+GFED  ...    55.029222    55.029222
+20  Historical  GCP+CEDS+PRIMAP+GFED  ...    21.494075    21.494075
+21  Historical  GCP+CEDS+PRIMAP+GFED  ...    34.748115    34.748115
+22  Historical  GCP+CEDS+PRIMAP+GFED  ...   370.433593   370.433593
+23  Historical  GCP+CEDS+PRIMAP+GFED  ...  1229.025703  1229.025703
+24  Historical  GCP+CEDS+PRIMAP+GFED  ...  5340.361242  5340.361242
+25  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.191933     0.191933
+26  Historical  GCP+CEDS+PRIMAP+GFED  ...   135.135504   135.135504
+27  Historical  GCP+CEDS+PRIMAP+GFED  ...     3.534761     3.534761
+28  Historical  GCP+CEDS+PRIMAP+GFED  ...     1.881336     1.881336
+29  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.358827     0.358827
+30  Historical  GCP+CEDS+PRIMAP+GFED  ...     3.148596     3.148596
+31  Historical  GCP+CEDS+PRIMAP+GFED  ...   142.551933   147.896677
+32  Historical  GCP+CEDS+PRIMAP+GFED  ...   205.347411   202.991074
+33  Historical  GCP+CEDS+PRIMAP+GFED  ...    51.815017    53.655721
+34  Historical  GCP+CEDS+PRIMAP+GFED  ...    47.760643    46.152016
+35  Historical  GCP+CEDS+PRIMAP+GFED  ...     4.432262     4.454464
+36  Historical  GCP+CEDS+PRIMAP+GFED  ...     1.946462      1.79613
+37  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.385853     0.398941
+38  Historical  GCP+CEDS+PRIMAP+GFED  ...    17.377753     17.96753
+39  Historical  GCP+CEDS+PRIMAP+GFED  ...     5.183944     4.783573
+40  Historical  GCP+CEDS+PRIMAP+GFED  ...     4.727321     4.673073
+41  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.984248     0.951097
+42  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.770842     0.775198
+43  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.219866     0.221109
+44  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.048805     0.049079
+45  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.021369     0.021488
+46  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.171865     0.172831
+47  Historical  GCP+CEDS+PRIMAP+GFED  ...      0.11481     0.115458
+48  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.049804     0.050084
+49  Historical  GCP+CEDS+PRIMAP+GFED  ...     5.337053     5.367179
+50  Historical  GCP+CEDS+PRIMAP+GFED  ...     0.622162     0.625677
+
+[51 rows x 278 columns]
+Downloading data from 'https://zenodo.org/records/4589756/files/rcmip-concentrations-annual-means-v5-1-0.csv' to file '/oscar/scratch/jnickla1/fair/1ab55c6d969ae6d0dfb7d09e10759a70-rcmip-concentrations-annual-means-v5-1-0.csv'.
+Calibrating GHG emissions scale factors...
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5/calibration/./12_harmonize-emissions.py", line 17, in <module>
+    import aneris.convenience
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/aneris/convenience.py", line 2, in <module>
+    import pyam
+ModuleNotFoundError: No module named 'pyam'

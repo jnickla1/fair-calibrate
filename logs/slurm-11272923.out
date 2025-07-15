@@ -1,0 +1,33 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11272923
+##  Job Name : run
+##  Nodelist : node2405
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Sun May  4 10:01:08 PM EDT 2025
+###############################################################################
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `.env': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `debugging,': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `runs,': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `plots?': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `bar?': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `(good': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `interactive,': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `jobs)': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `(a': not a valid identifier
+/var/spool/slurmd/job11272923/slurm_script: line 10: export: `directory)': not a valid identifier
+Making nice 4xCO2 data...
+/usr/bin/env: ‘Rscript’: No such file or directory

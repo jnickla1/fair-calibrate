@@ -1,0 +1,33 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11579179
+##  Job Name : run_mult2
+##  Nodelist : node2334
+##      CPUs : 1
+##  Mem/Node : 4096 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Mon May 26 03:21:45 PM EDT 2025
+###############################################################################
+0
+>>> Constraining with cutoff year = 1930
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 800569
+[619033 513547 759679 254401 383781 614940 749584 324228 796368 170132]
+[0.16999914 0.16999922 0.16999923 0.16999933 0.16999934 0.16999939
+ 0.16999951 0.1699998  0.1699999  0.16999993]
+[0.08938551 0.08945771 0.09022427 0.09035877 0.0904148  0.09067253
+ 0.09092748 0.09097037 0.09101813 0.09124246]
+1
+####  • constraining/02_run-1pct.py####
+36
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+39
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./03_reweight-rmse-posterior-multiple-constraints.py", line 371
+    np.average(temp_in[(cutoff_int-19):(cutoff_int+2, :], weights=weights_20yr, axis=0)
+                                                       ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+ERROR in constraining/03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1930

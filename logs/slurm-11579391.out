@@ -1,0 +1,38 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11579391
+##  Job Name : run_mult2
+##  Nodelist : node2337
+##      CPUs : 1
+##  Mem/Node : 8192 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Mon May 26 03:34:33 PM EDT 2025
+###############################################################################
+0
+>>> Constraining with cutoff year = 1930
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 800569
+[619033 513547 759679 254401 383781 614940 749584 324228 796368 170132]
+[0.16999914 0.16999922 0.16999923 0.16999933 0.16999934 0.16999939
+ 0.16999951 0.1699998  0.1699999  0.16999993]
+[0.08938551 0.08945771 0.09022427 0.09035877 0.0904148  0.09067253
+ 0.09092748 0.09097037 0.09101813 0.09124246]
+1
+####  • constraining/02_run-1pct.py####
+84
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+86
+Doing reweighting...
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./03_reweight-rmse-posterior-multiple-constraints.py", line 74, in <module>
+    co2_in_all = np.load(
+                 ^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 451, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../../../../../output/fair-2.1.3/v1.4/all-2022_hadcrut5_current/prior_runs/concentration_co2_1850-2101.npy'
+ERROR in constraining/03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1930

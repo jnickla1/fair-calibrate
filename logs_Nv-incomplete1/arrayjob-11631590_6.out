@@ -1,0 +1,242 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11631596
+##  Job Name : FAIR_Nv
+##  Nodelist : node2423
+##      CPUs : 85
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun  1 03:04:39 AM EDT 2025
+###############################################################################
+Starting job 6 on node2423
+environment: line 5: 1824821 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825272 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1824913 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825298 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825292 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825283 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825391 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1824931 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1824937 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825278 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825286 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825281 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825284 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825300 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825270 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825297 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825271 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 84.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 5: 1824920 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1824938 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1824952 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825265 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825285 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825282 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825390 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825288 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825274 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825303 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828581 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 83.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 5: 1824941 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825147 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825279 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825291 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825257 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825393 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828579 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828600 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825296 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825276 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825289 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825392 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825051 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1825266 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 82.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 5: 1828610 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828953 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828963 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828961 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828987 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828974 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828973 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828980 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828984 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828986 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828982 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828991 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828990 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828994 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1828992 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829264 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 81.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 5: 1829291 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829293 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829295 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829573 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829575 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829580 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829595 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829597 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829612 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829727 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 80.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829743 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829064 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829268 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829274 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829715 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829718 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829724 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829722 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829728 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829737 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829736 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829738 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829745 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829742 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829823 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829929 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829931 Segmentation fault      ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829858 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 79.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829915 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829916 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829922 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829926 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1829927 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829867 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829891 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829901 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829905 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829911 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829904 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829906 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829913 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829923 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829970 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829982 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829979 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830058 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830065 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830070 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830072 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830060 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830068 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830177 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830182 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830185 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830180 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830252 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830253 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830247 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830242 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830245 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830324 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830327 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830325 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: fork: retry: Resource temporarily unavailable
+environment: line 5: 1830378 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 1829591 Segmentation fault      (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 84.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 1: 1839113 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 1: 1838961 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 1: 1839069 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839208 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839147 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839111 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838960 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838945 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839078 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839013 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839041 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838935 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838974 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839001 Aborted                 ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839091 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839207 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+parallel: Warning: No more processes: Decreasing number of running jobs to 83.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+parallel: Warning: No more processes: Decreasing number of running jobs to 82.
+parallel: Warning: Try increasing 'ulimit -u' (try: ulimit -u `ulimit -Hu`)
+parallel: Warning: or increasing 'nproc' in /etc/security/limits.conf
+parallel: Warning: or increasing /proc/sys/kernel/pid_max
+environment: line 1: 1839178 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838979 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838954 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839047 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839131 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839218 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 1: 1839059 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839132 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839137 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1838984 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839081 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839044 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 1: 1839125 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839224 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: fork: retry: Resource temporarily unavailable
+environment: line 1: 1838940 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 1839170 Aborted                 (core dumped) ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 625 seconds
+All done!

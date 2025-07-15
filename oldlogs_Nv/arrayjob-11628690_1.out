@@ -1,0 +1,705 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11628690
+##  Job Name : FAIR_Nv
+##  Nodelist : node2352
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 07:09:41 PM EDT 2025
+###############################################################################
+Starting job 1 on node2352
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1935.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1936.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1938.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1934.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1937.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1939.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1940.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1941.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1943.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1942.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1949.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1944.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1945.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1946.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1947.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1948.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1950.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1951.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1953.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1954.log: No such file or directory
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+environment: line 18: logs_Nv/log_ens1_cut1952.log: No such file or directory
+Total time: 6 seconds
+All done!

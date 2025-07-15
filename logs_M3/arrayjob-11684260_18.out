@@ -1,0 +1,84 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11690085
+##  Job Name : FAIR_M3
+##  Nodelist : node[2306,2309,2321-2322,2325,2328]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Mon Jun  9 04:37:27 PM EDT 2025
+###############################################################################
+Starting job 18 on node2306
+environment: line 1: 3078275 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078234 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077557 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078158 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076856 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076989 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076923 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077713 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077164 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076927 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076834 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077027 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077810 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077200 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077168 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077203 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078190 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077031 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076814 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078061 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078092 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077935 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077102 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077057 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077146 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077073 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076942 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077299 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077170 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078155 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076974 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078283 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077112 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078231 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077567 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077287 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077240 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076876 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077694 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077074 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077775 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077224 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077991 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077916 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077390 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077929 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078162 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077481 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077494 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077433 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078240 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078336 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077034 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077278 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077187 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078430 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078226 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078766 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077394 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078483 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077756 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078639 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077493 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077313 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077650 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077065 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3076921 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077017 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3077153 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078496 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 3078439 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 4930 seconds
+All done!
+slurmstepd: error: Detected 71 oom_kill events in StepId=11690085.batch. Some of the step tasks have been OOM Killed.

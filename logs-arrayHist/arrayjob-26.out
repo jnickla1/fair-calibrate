@@ -1,0 +1,27 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11625057
+##  Job Name : FAIRc_cur
+##  Nodelist : node2350
+##      CPUs : 1
+##  Mem/Node : 16384 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 03:42:19 AM EDT 2025
+###############################################################################
+Starting job 26 on node2350
+0
+>>> Constraining with cutoff year = 1956
+0
+1
+2
+3
+####  • constraining/04_dump-calibration.py####
+0
+Dumping output...
+Running 841 projections in parallel:   0%|          | 0/274 [00:00<?, ?timesteps/s]Running 841 projections in parallel:   2%|▏         | 6/274 [00:00<00:04, 56.85timesteps/s]Running 841 projections in parallel:   5%|▍         | 13/274 [00:00<00:04, 58.83timesteps/s]Running 841 projections in parallel:   7%|▋         | 20/274 [00:00<00:04, 59.36timesteps/s]Running 841 projections in parallel:   9%|▉         | 26/274 [00:00<00:04, 59.56timesteps/s]Running 841 projections in parallel:  12%|█▏        | 33/274 [00:00<00:04, 59.79timesteps/s]Running 841 projections in parallel:  15%|█▍        | 40/274 [00:00<00:03, 59.88timesteps/s]Running 841 projections in parallel:  17%|█▋        | 46/274 [00:00<00:03, 59.80timesteps/s]Running 841 projections in parallel:  19%|█▉        | 53/274 [00:00<00:03, 59.94timesteps/s]Running 841 projections in parallel:  22%|██▏       | 59/274 [00:00<00:03, 59.90timesteps/s]Running 841 projections in parallel:  24%|██▎       | 65/274 [00:01<00:03, 59.92timesteps/s]Running 841 projections in parallel:  26%|██▌       | 71/274 [00:01<00:03, 59.90timesteps/s]Running 841 projections in parallel:  28%|██▊       | 78/274 [00:01<00:03, 59.98timesteps/s]Running 841 projections in parallel:  31%|███       | 85/274 [00:01<00:03, 60.05timesteps/s]Running 841 projections in parallel:  34%|███▎      | 92/274 [00:01<00:03, 59.96timesteps/s]Running 841 projections in parallel:  36%|███▌      | 98/274 [00:01<00:02, 59.82timesteps/s]Running 841 projections in parallel:  38%|███▊      | 104/274 [00:01<00:02, 59.58timesteps/s]Running 841 projections in parallel:  40%|████      | 110/274 [00:01<00:02, 59.67timesteps/s]Running 841 projections in parallel:  42%|████▏     | 116/274 [00:01<00:02, 59.59timesteps/s]Running 841 projections in parallel:  45%|████▍     | 122/274 [00:02<00:02, 59.65timesteps/s]Running 841 projections in parallel:  47%|████▋     | 129/274 [00:02<00:02, 59.80timesteps/s]Running 841 projections in parallel:  50%|████▉     | 136/274 [00:02<00:02, 59.90timesteps/s]Running 841 projections in parallel:  52%|█████▏    | 143/274 [00:02<00:02, 60.05timesteps/s]Running 841 projections in parallel:  55%|█████▍    | 150/274 [00:02<00:02, 60.23timesteps/s]Running 841 projections in parallel:  57%|█████▋    | 157/274 [00:02<00:01, 60.26timesteps/s]Running 841 projections in parallel:  60%|█████▉    | 164/274 [00:02<00:01, 60.36timesteps/s]Running 841 projections in parallel:  62%|██████▏   | 171/274 [00:02<00:01, 60.47timesteps/s]Running 841 projections in parallel:  65%|██████▍   | 178/274 [00:02<00:01, 60.58timesteps/s]Running 841 projections in parallel:  68%|██████▊   | 185/274 [00:03<00:01, 60.52timesteps/s]Running 841 projections in parallel:  70%|███████   | 192/274 [00:03<00:01, 60.53timesteps/s]Running 841 projections in parallel:  73%|███████▎  | 199/274 [00:03<00:01, 60.55timesteps/s]Running 841 projections in parallel:  75%|███████▌  | 206/274 [00:03<00:01, 60.53timesteps/s]Running 841 projections in parallel:  78%|███████▊  | 213/274 [00:03<00:01, 60.53timesteps/s]Running 841 projections in parallel:  80%|████████  | 220/274 [00:03<00:00, 60.56timesteps/s]Running 841 projections in parallel:  83%|████████▎ | 227/274 [00:03<00:00, 60.56timesteps/s]Running 841 projections in parallel:  85%|████████▌ | 234/274 [00:03<00:00, 60.49timesteps/s]Running 841 projections in parallel:  88%|████████▊ | 241/274 [00:04<00:00, 60.52timesteps/s]Running 841 projections in parallel:  91%|█████████ | 248/274 [00:04<00:00, 60.54timesteps/s]Running 841 projections in parallel:  93%|█████████▎| 255/274 [00:04<00:00, 60.56timesteps/s]Running 841 projections in parallel:  96%|█████████▌| 262/274 [00:04<00:00, 60.58timesteps/s]Running 841 projections in parallel:  98%|█████████▊| 269/274 [00:04<00:00, 60.57timesteps/s]Running 841 projections in parallel: 100%|██████████| 274/274 [00:04<00:00, 60.11timesteps/s]
+Running 5046 projections in parallel:   0%|          | 0/274 [00:00<?, ?timesteps/s]Running 5046 projections in parallel:  56%|█████▌    | 154/274 [00:00<00:00, 1529.89timesteps/s]Running 5046 projections in parallel: 100%|██████████| 274/274 [00:00<00:00, 1526.49timesteps/s]
+4
+5
+6
+7
+52
+All done!

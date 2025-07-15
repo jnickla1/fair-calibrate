@@ -1,0 +1,3 @@
+Starting job 32 on node2307
+rm: cannot remove 'logs_Nv/arrayjob2-*_32.out': No such file or directory
+slurmstepd: error: *** JOB 11675065 ON node2307 CANCELLED AT 2025-06-07T04:52:19 DUE TO TIME LIMIT ***

@@ -1,0 +1,18 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11737146
+##  Job Name : FAIR_M3a
+##  Nodelist : node2343
+##      CPUs : 1
+##   Mem/CPU : 10240 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun 15 11:25:00 AM EDT 2025
+###############################################################################
+Starting job 42 on node2343
+all_current_MPIESM370
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓✓cut=1931✓✓cut=1932✓✓cut=1933✓✓cut=1934✓✓cut=1935✓✓cut=1936✓✓cut=1937✓✓cut=1938✓✓cut=1939✓✓cut=1940✓✓cut=1941✓✓cut=1942✓✓cut=1943✓✓cut=1944✓✓cut=1945✓✓cut=1946✓✓cut=1947✓✓cut=1948✓✓cut=1949✓✓cut=1950✓✓cut=1951✓✓cut=1952✓✓cut=1953✓✓cut=1954✓✓cut=1955✓✓cut=1956✓✓cut=1957✓✓cut=1958✓✓cut=1959✓✓cut=1960✓✓cut=1961✓✓cut=1962✓✓cut=1963✓✓cut=1964✓✓cut=1965✓✓cut=1966✓✓cut=1967✓✓cut=1968✓✓cut=1969✓✓cut=1970✓✓cut=1971✓✓cut=1972✓✓cut=1973✓✓cut=1974✓✓cut=1975✓✓cut=1976✓✓cut=1977✓✓cut=1978✓✓cut=1979✓✓cut=1980✓✓cut=1981✓✓cut=1982✓✓cut=1983✓✓cut=1984✓✓cut=1985✓✓cut=1986✓✓cut=1987✓✓cut=1988✓✓cut=1989✓✓===== DONE: reran 01 + 03 where needed =====
+
+===== STARTING: rerun 04 for any missing outputs =====
+cut=1930✓cut=1931✓cut=1932✓cut=1933✓cut=1934✓cut=1935✓cut=1936✓cut=1937✓cut=1938✓cut=1939✓cut=1940✓cut=1941✓cut=1942✓cut=1943✓cut=1944✓cut=1945✓cut=1946✓cut=1947✓cut=1948✓cut=1949✓cut=1950✓cut=1951✓cut=1952✓cut=1953✓cut=1954✓cut=1955✓cut=1956✓cut=1957✓cut=1958✓cut=1959✓cut=1960✓cut=1961✓cut=1962✓cut=1963✓cut=1964✓cut=1965✓cut=1966✓cut=1967✓cut=1968✓cut=1969✓cut=1970✓cut=1971✓cut=1972✓cut=1973✓cut=1974✓cut=1975✓cut=1976✓cut=1977✓cut=1978✓cut=1979✓cut=1980✓cut=1981✓cut=1982✓cut=1983✓cut=1984✓cut=1985✓cut=1986✓cut=1987✓cut=1988✓cut=1989✓===== DONE: reran 04 where needed =====
+
+All requested reruns complete.

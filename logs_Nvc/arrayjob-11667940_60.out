@@ -1,0 +1,6 @@
+Starting job 60 on node2306
+rm: cannot remove 'logs_Nv/arrayjob2-*_60.out': No such file or directory
+environment: line 1: 3320169 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 7028 seconds
+All done!
+slurmstepd: error: Detected 1 oom_kill event in StepId=11667940.batch. Some of the step tasks have been OOM Killed.

@@ -1,0 +1,10 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11628741
+##  Job Name : FAIR_Nv
+##  Nodelist : node2334
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 07:34:35 PM EDT 2025
+###############################################################################
+slurmstepd: error: execve(): bad interpreter(/bin/basconda activate h): No such file or directory

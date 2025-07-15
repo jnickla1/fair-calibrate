@@ -1,0 +1,11 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11612124
+##  Job Name : FAIRc_NORESM
+##  Nodelist : node[1842-1848]
+##      CPUs : 86
+##   Mem/CPU : 25600 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 28 06:28:18 PM EDT 2025
+###############################################################################
+Starting job  on node1842
+slurmstepd: error: *** JOB 11612124 ON node1842 CANCELLED AT 2025-05-28T18:48:46 DUE TO TIME LIMIT ***

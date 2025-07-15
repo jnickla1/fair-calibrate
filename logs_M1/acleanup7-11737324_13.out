@@ -1,0 +1,368 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11737337
+##  Job Name : FAIR_M1b
+##  Nodelist : node2347
+##      CPUs : 1
+##   Mem/CPU : 6144 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun 15 11:29:00 AM EDT 2025
+###############################################################################
+Starting job 13 on node2347
+all_current_MPIESM126
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1990✓✓cut=1991✓✓cut=1992✓✓cut=1993✓✓cut=1994✓✓cut=1995✓✓cut=1996✓✓cut=1997✓✓cut=1998✓✓cut=1999✓✓cut=2000✓✓cut=2001✓✓cut=2002✓✓cut=2003✓✓cut=2004✓✓cut=2005✓✓cut=2006✓✓cut=2007✓✓cut=2008✓✓cut=2009✓✓cut=2010✓✓cut=2011✓✓cut=2012✓✓cut=2013✓✓cut=2014✓✓cut=2015✓✓cut=2016✓✓cut=2017✓✓cut=2018✓✓cut=2019✓✓cut=2020✓✓cut=2021✓✓cut=2022✓✓cut=2023✓✓cut=2024✓✓cut=2025✓✓cut=2026Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2026
+Doing RMSE constraint...
+Passing RMSE constraint: 52955
+[32791 46343  7304  3816 16754 37655 43350 13586 21348 40840]
+[0.1699974  0.16999747 0.16999795 0.16999805 0.16999805 0.16999844
+ 0.16999877 0.16999893 0.16999959 0.16999979]
+[0.12253375 0.12321287 0.12359098 0.12383674 0.12388505 0.12406628
+ 0.12436964 0.12441359 0.12441964 0.12452966]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2026
+Doing reweighting...
+Number of effective samples: 610
+Constrained, reweighted parameters:
+ECS: [1.71630587 2.77670041 5.38748528]
+TCR: [1.2469367  1.74423628 2.38609264]
+CO2 concentration current: [423.45780714 428.20677165 432.69813826]
+Temperature l20yrs rel. 1850-1900: [0.99605818 1.10709941 1.2875416 ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.61255356 -0.26820524  0.10959486]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.6463367  -0.90825717 -0.0273394 ]
+Aerosol ERF 2005-2014 rel. 1750: [-1.81186854 -1.18556511 -0.3215262 ]
+OHC change l50yrs: [289.85199273 484.14234144 676.60043864]
+*likely range
+cut=2027Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2027
+Doing RMSE constraint...
+Passing RMSE constraint: 46074
+[36743 12722 32678 24360  5236 25059 30138 29747 30754 34855]
+[0.16999773 0.16999827 0.16999827 0.16999835 0.16999887 0.16999918
+ 0.16999933 0.16999962 0.16999983 0.1699999 ]
+[0.12362111 0.12429858 0.1245965  0.1246125  0.12486674 0.12538146
+ 0.1255133  0.12572104 0.12631105 0.12663735]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2027
+Doing reweighting...
+Number of effective samples: 608
+Constrained, reweighted parameters:
+ECS: [1.7159232  2.68204374 5.01099641]
+TCR: [1.24109332 1.71510669 2.30861338]
+CO2 concentration current: [425.66162675 430.52683283 435.71608782]
+Temperature l20yrs rel. 1850-1900: [1.00765543 1.12622407 1.2964848 ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60117224 -0.28766112  0.11025268]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.58260579 -0.85444033 -0.04034378]
+Aerosol ERF 2005-2014 rel. 1750: [-1.80495649 -1.14551172 -0.33410918]
+OHC change l50yrs: [300.850299   489.85415933 686.4695459 ]
+*likely range
+cut=2028Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2028
+Doing RMSE constraint...
+Passing RMSE constraint: 42750
+[20555 14533  5631 24898 12870  2114 37926 27765 32747 23580]
+[0.16999703 0.16999713 0.16999771 0.16999905 0.16999913 0.16999943
+ 0.16999959 0.16999961 0.16999972 0.1699998 ]
+[0.12416162 0.12420935 0.12459979 0.12484609 0.12536286 0.12602282
+ 0.126039   0.12632484 0.12651734 0.1268579 ]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2028
+Doing reweighting...
+Number of effective samples: 599
+Constrained, reweighted parameters:
+ECS: [1.71449306 2.61582458 4.83897147]
+TCR: [1.23746044 1.70413826 2.23532216]
+CO2 concentration current: [427.16943169 432.99354514 438.50367581]
+Temperature l20yrs rel. 1850-1900: [1.03088049 1.14728255 1.33135108]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60315577 -0.2826912   0.10099095]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.60930337 -0.8548615  -0.04622881]
+Aerosol ERF 2005-2014 rel. 1750: [-1.78425609 -1.14533835 -0.33451222]
+OHC change l50yrs: [289.85361545 489.20058457 696.86136719]
+*likely range
+cut=2029Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2029
+Doing RMSE constraint...
+Passing RMSE constraint: 42421
+[ 7868 25500 40391   180 12375 26234 41508 23325 21717 29993]
+[0.16999472 0.16999479 0.16999548 0.16999589 0.16999612 0.16999739
+ 0.16999825 0.16999846 0.16999951 0.16999974]
+[0.12388855 0.1239913  0.12425864 0.12457332 0.12502623 0.12568853
+ 0.12574255 0.12600878 0.12679427 0.12684998]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2029
+Doing reweighting...
+Number of effective samples: 635
+Constrained, reweighted parameters:
+ECS: [1.70051563 2.58660426 4.78222835]
+TCR: [1.24314263 1.6797157  2.2251755 ]
+CO2 concentration current: [429.63699347 435.41403739 441.26992855]
+Temperature l20yrs rel. 1850-1900: [1.04938957 1.17034459 1.34976685]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60346871 -0.26684482  0.1109829 ]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.60131266 -0.86803257 -0.05151933]
+Aerosol ERF 2005-2014 rel. 1750: [-1.78461216 -1.13076443 -0.39282327]
+OHC change l50yrs: [307.57440495 497.55077699 696.07991053]
+*likely range
+cut=2030Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2030
+Doing RMSE constraint...
+Passing RMSE constraint: 41388
+[ 8554 23303 31979 26963 21069 21012 24487   545 27239 31935]
+[0.16999766 0.16999767 0.16999814 0.16999817 0.16999824 0.16999824
+ 0.16999845 0.16999872 0.1699992  0.16999941]
+[0.1235468  0.12394092 0.12394567 0.1242293  0.12468039 0.12553755
+ 0.12567618 0.12581242 0.12645304 0.12650116]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2030
+Doing reweighting...
+Number of effective samples: 606
+Constrained, reweighted parameters:
+ECS: [1.68624714 2.54442666 4.78718298]
+TCR: [1.24217003 1.68450718 2.21275476]
+CO2 concentration current: [431.48851273 437.51227605 443.94220944]
+Temperature l20yrs rel. 1850-1900: [1.07128354 1.192918   1.38299001]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60400783 -0.26865601  0.11061036]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.57550504 -0.87888381 -0.05461562]
+Aerosol ERF 2005-2014 rel. 1750: [-1.76969167 -1.13645644 -0.41566225]
+OHC change l50yrs: [302.33769792 493.24908487 699.86801197]
+*likely range
+cut=2031Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2031
+Doing RMSE constraint...
+Passing RMSE constraint: 37151
+[20904 19901 18652 36974 31801 35851 35504 25308 26543 20949]
+[0.16999706 0.16999713 0.16999762 0.16999765 0.16999785 0.16999795
+ 0.16999831 0.16999924 0.16999982 0.16999983]
+[0.12351255 0.123802   0.12460018 0.12496122 0.12529133 0.12615417
+ 0.1266074  0.1266805  0.12685731 0.12687241]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2031
+Doing reweighting...
+Number of effective samples: 585
+Constrained, reweighted parameters:
+ECS: [1.63897218 2.46106645 4.65025939]
+TCR: [1.21236223 1.65061336 2.1643981 ]
+CO2 concentration current: [432.92548732 439.71747331 446.71090276]
+Temperature l20yrs rel. 1850-1900: [1.07547862 1.21359946 1.40576567]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.61697534 -0.26684482  0.11462762]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.56579231 -0.83716985 -0.0501948 ]
+Aerosol ERF 2005-2014 rel. 1750: [-1.70275526 -1.09652096 -0.33396954]
+OHC change l50yrs: [272.56849349 495.32026141 711.06164266]
+*likely range
+cut=2032Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2032
+Doing RMSE constraint...
+Passing RMSE constraint: 35420
+[31912 22234  1015 20675 16764  7334  3609  8076 33652 28178]
+[0.16999846 0.16999849 0.16999894 0.16999914 0.16999915 0.16999947
+ 0.1699995  0.16999977 0.16999984 0.16999998]
+[0.12328021 0.12346676 0.12452786 0.12519648 0.12528818 0.12615325
+ 0.12634431 0.12652701 0.126548   0.12667574]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2032
+Doing reweighting...
+Number of effective samples: 565
+Constrained, reweighted parameters:
+ECS: [1.6411808  2.41828571 4.40740123]
+TCR: [1.20874382 1.6118575  2.10845797]
+CO2 concentration current: [435.75063596 441.79294111 448.46723719]
+Temperature l20yrs rel. 1850-1900: [1.09181945 1.22344547 1.42275415]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60405871 -0.26831318  0.11425895]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.54261417 -0.79039111 -0.0500743 ]
+Aerosol ERF 2005-2014 rel. 1750: [-1.70180231 -1.06548854 -0.34106808]
+OHC change l50yrs: [291.46699332 508.7130049  734.23504686]
+*likely range
+cut=2033Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2033
+Doing RMSE constraint...
+Passing RMSE constraint: 35522
+[25560  7449 26079 21272 15800  5335 17350 16567  2223 33398]
+[0.16999681 0.16999714 0.16999728 0.16999805 0.16999827 0.16999858
+ 0.16999886 0.16999889 0.16999907 0.16999919]
+[0.12336517 0.12435237 0.12443072 0.12510729 0.12515039 0.12607184
+ 0.12610626 0.12651605 0.12653576 0.12657069]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2033
+Doing reweighting...
+Number of effective samples: 556
+Constrained, reweighted parameters:
+ECS: [1.59808343 2.43244738 4.35637703]
+TCR: [1.18619298 1.62438214 2.08127625]
+CO2 concentration current: [436.41715302 444.17654621 451.50063773]
+Temperature l20yrs rel. 1850-1900: [1.10939772 1.2475178  1.45052355]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60199572 -0.24482659  0.10981954]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.55027029 -0.83694406 -0.0343281 ]
+Aerosol ERF 2005-2014 rel. 1750: [-1.69772928 -1.08855828 -0.38025932]
+OHC change l50yrs: [297.03468031 520.56970159 750.43274996]
+*likely range
+cut=2034Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2034
+Doing RMSE constraint...
+Passing RMSE constraint: 35519
+[23600 21468 33692 10108 15126 17223   678 10473 16826 19951]
+[0.16999685 0.16999763 0.16999772 0.16999896 0.16999942 0.16999955
+ 0.16999956 0.16999973 0.1699998  0.16999989]
+[0.1232051  0.12424102 0.12451658 0.12499941 0.12510957 0.12576768
+ 0.12596329 0.12625917 0.12636511 0.12636985]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2034
+Doing reweighting...
+Number of effective samples: 574
+Constrained, reweighted parameters:
+ECS: [1.52346465 2.440804   4.38292115]
+TCR: [1.13700869 1.62635594 2.06059517]
+CO2 concentration current: [437.88259214 445.70611147 453.56907142]
+Temperature l20yrs rel. 1850-1900: [1.13377901 1.26894721 1.48343657]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60936874 -0.2562511   0.09706513]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.52709164 -0.80197632 -0.03836649]
+Aerosol ERF 2005-2014 rel. 1750: [-1.68589064 -1.07942081 -0.35898605]
+OHC change l50yrs: [305.13596658 530.13647933 777.73236309]
+*likely range
+cut=2035Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2035
+Doing RMSE constraint...
+Passing RMSE constraint: 30055
+[ 5607    14  7216 20513 22706  5906 28802  9122 17441 18295]
+[0.16999678 0.16999679 0.16999688 0.16999702 0.1699972  0.16999753
+ 0.16999782 0.16999842 0.16999913 0.16999925]
+[0.12425595 0.12559765 0.12566885 0.12625956 0.1265992  0.12722045
+ 0.12740555 0.12744595 0.12763844 0.12766802]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2035
+Doing reweighting...
+Number of effective samples: 594
+Constrained, reweighted parameters:
+ECS: [1.59337203 2.38092539 4.04894543]
+TCR: [1.18364054 1.59304101 2.01648159]
+CO2 concentration current: [440.64060206 447.75311524 455.51050372]
+Temperature l20yrs rel. 1850-1900: [1.1549178  1.29508804 1.48943752]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.59817363 -0.25661629  0.10714359]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.48036616 -0.73411298 -0.00959659]
+Aerosol ERF 2005-2014 rel. 1750: [-1.62352737 -1.02031258 -0.24862937]
+OHC change l50yrs: [319.60072372 539.77613315 812.78989925]
+*likely range
+cut=2036Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2036
+Doing RMSE constraint...
+Passing RMSE constraint: 24072
+[ 3601 10247   236 17886  7130  4853  8403  4699 19922 20630]
+[0.16999433 0.1699945  0.16999508 0.16999519 0.16999719 0.16999756
+ 0.16999824 0.16999861 0.16999879 0.16999987]
+[0.12682129 0.12686559 0.12776334 0.12783904 0.12824919 0.12836269
+ 0.12864599 0.12889757 0.12903287 0.12918194]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2036
+Doing reweighting...
+Number of effective samples: 539
+Constrained, reweighted parameters:
+ECS: [1.55379994 2.29756369 3.92427643]
+TCR: [1.17169492 1.56659686 1.9597486 ]
+CO2 concentration current: [440.91275318 449.30220628 458.22603194]
+Temperature l20yrs rel. 1850-1900: [1.15990217 1.32068052 1.52155857]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.61659912 -0.25637177  0.10802675]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.45299873 -0.69164301 -0.03933833]
+Aerosol ERF 2005-2014 rel. 1750: [-1.55283191 -0.99743742 -0.27804782]
+OHC change l50yrs: [326.25655677 547.5337072  813.60066854]
+*likely range
+cut=2037Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2037
+Doing RMSE constraint...
+Passing RMSE constraint: 22776
+[17962 14634 10832  6332 12371 13046 14107  7701 15660 13375]
+[0.16999424 0.16999429 0.16999445 0.16999511 0.16999581 0.16999597
+ 0.16999599 0.16999631 0.16999678 0.16999727]
+[0.12659014 0.12691684 0.12750909 0.1276553  0.12805197 0.12830756
+ 0.1283652  0.12885479 0.12910571 0.12910609]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2037
+Doing reweighting...
+Number of effective samples: 552
+Constrained, reweighted parameters:
+ECS: [1.52672322 2.30675828 3.85467716]
+TCR: [1.17525064 1.56412537 1.94653612]
+CO2 concentration current: [442.44711139 451.06668222 459.75468507]
+Temperature l20yrs rel. 1850-1900: [1.18361689 1.3317609  1.50256104]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60187944 -0.24055615  0.1388854 ]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.43755943 -0.74159005  0.01887945]
+Aerosol ERF 2005-2014 rel. 1750: [-1.53145736 -0.98132163 -0.26761228]
+OHC change l50yrs: [301.7421536  555.4641508  847.44661757]
+*likely range
+cut=2038Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2038
+Doing RMSE constraint...
+Passing RMSE constraint: 22197
+[12879 18797  9408  7676 14139  2747 20889  7514 18399 13889]
+[0.16999704 0.1699972  0.16999724 0.16999749 0.16999798 0.16999852
+ 0.16999885 0.16999907 0.16999948 0.16999964]
+[0.12625622 0.12711783 0.12717194 0.12735367 0.1277992  0.12810463
+ 0.12822444 0.12854103 0.12883446 0.12886076]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2038
+Doing reweighting...
+Number of effective samples: 545
+Constrained, reweighted parameters:
+ECS: [1.54316314 2.2518264  3.77262121]
+TCR: [1.16119226 1.53649387 1.94475457]
+CO2 concentration current: [444.04837229 452.95171492 461.53595786]
+Temperature l20yrs rel. 1850-1900: [1.20167906 1.352765   1.54502882]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.58876033 -0.23896646  0.13412471]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.41895593 -0.74565494 -0.04062515]
+Aerosol ERF 2005-2014 rel. 1750: [-1.52457541 -0.98978418 -0.31746573]
+OHC change l50yrs: [294.08963801 545.3550395  804.05861435]
+*likely range
+cut=2039Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 2039
+Doing RMSE constraint...
+Passing RMSE constraint: 20739
+[ 8328   845 10511 11136 11874 10366  1192 15871  8548  7410]
+[0.16999424 0.16999464 0.1699948  0.16999514 0.16999541 0.16999738
+ 0.16999774 0.16999879 0.16999921 0.16999977]
+[0.12624035 0.12684057 0.12736086 0.12762862 0.12776914 0.12802157
+ 0.12820464 0.12852396 0.1287608  0.12884005]
+Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2039
+Doing reweighting...
+Number of effective samples: 532
+Constrained, reweighted parameters:
+ECS: [1.56052185 2.24392363 3.67489445]
+TCR: [1.15824376 1.54821812 1.92404405]
+CO2 concentration current: [445.85157432 454.14654476 463.64562155]
+Temperature l20yrs rel. 1850-1900: [1.21444942 1.36418097 1.55544316]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.57035188 -0.25138697  0.13108625]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.40592719 -0.69636246  0.00466257]
+Aerosol ERF 2005-2014 rel. 1750: [-1.52469235 -0.96193216 -0.25254239]
+OHC change l50yrs: [307.24143748 556.0853646  834.55632321]
+*likely range
+===== DONE: reran 01 + 03 where needed =====
+
+===== STARTING: rerun 04 for any missing outputs =====
+cut=1990✓cut=1991✓cut=1992✓cut=1993✓cut=1994✓cut=1995✓cut=1996✓cut=1997✓cut=1998✓cut=1999✓cut=2000✓cut=2001✓cut=2002✓cut=2003✓cut=2004✓cut=2005✓cut=2006✓cut=2007✓cut=2008✓cut=2009✓cut=2010✓cut=2011✓cut=2012✓cut=2013✓cut=2014✓cut=2015✓cut=2016✓cut=2017✓cut=2018✓cut=2019✓cut=2020✓cut=2021✓cut=2022✓cut=2023✓cut=2024✓cut=2025✓cut=2026Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2026
+Dumping output...
+Running 610 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 610 projections in parallel:   3%|▎         | 11/351 [00:00<00:03, 109.65timesteps/s]Running 610 projections in parallel:   7%|▋         | 23/351 [00:00<00:02, 115.43timesteps/s]Running 610 projections in parallel:  10%|█         | 36/351 [00:00<00:02, 117.69timesteps/s]Running 610 projections in parallel:  14%|█▍        | 49/351 [00:00<00:02, 118.74timesteps/s]Running 610 projections in parallel:  18%|█▊        | 62/351 [00:00<00:02, 119.47timesteps/s]Running 610 projections in parallel:  21%|██▏       | 75/351 [00:00<00:02, 119.87timesteps/s]Running 610 projections in parallel:  25%|██▌       | 88/351 [00:00<00:02, 120.09timesteps/s]Running 610 projections in parallel:  29%|██▉       | 101/351 [00:00<00:02, 120.24timesteps/s]Running 610 projections in parallel:  32%|███▏      | 114/351 [00:00<00:01, 120.45timesteps/s]Running 610 projections in parallel:  36%|███▌      | 127/351 [00:01<00:01, 120.52timesteps/s]Running 610 projections in parallel:  40%|███▉      | 140/351 [00:01<00:01, 120.65timesteps/s]Running 610 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 120.69timesteps/s]Running 610 projections in parallel:  47%|████▋     | 166/351 [00:01<00:01, 120.73timesteps/s]Running 610 projections in parallel:  51%|█████     | 179/351 [00:01<00:01, 120.77timesteps/s]Running 610 projections in parallel:  55%|█████▍    | 192/351 [00:01<00:01, 120.81timesteps/s]Running 610 projections in parallel:  58%|█████▊    | 205/351 [00:01<00:01, 120.85timesteps/s]Running 610 projections in parallel:  62%|██████▏   | 218/351 [00:01<00:01, 120.93timesteps/s]Running 610 projections in parallel:  66%|██████▌   | 231/351 [00:01<00:00, 120.97timesteps/s]Running 610 projections in parallel:  70%|██████▉   | 244/351 [00:02<00:00, 121.05timesteps/s]Running 610 projections in parallel:  73%|███████▎  | 257/351 [00:02<00:00, 121.10timesteps/s]Running 610 projections in parallel:  77%|███████▋  | 270/351 [00:02<00:00, 118.64timesteps/s]Running 610 projections in parallel:  81%|████████  | 283/351 [00:02<00:00, 119.37timesteps/s]Running 610 projections in parallel:  84%|████████▍ | 296/351 [00:02<00:00, 119.95timesteps/s]Running 610 projections in parallel:  88%|████████▊ | 309/351 [00:02<00:00, 120.54timesteps/s]Running 610 projections in parallel:  92%|█████████▏| 322/351 [00:02<00:00, 121.29timesteps/s]Running 610 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 121.84timesteps/s]Running 610 projections in parallel:  99%|█████████▉| 348/351 [00:02<00:00, 122.16timesteps/s]Running 610 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 120.38timesteps/s]
+Running 3660 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3660 projections in parallel:  61%|██████▏   | 215/351 [00:00<00:00, 2146.46timesteps/s]Running 3660 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2140.79timesteps/s]
+cut=2027Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2027
+Dumping output...
+Running 608 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 608 projections in parallel:   3%|▎         | 11/351 [00:00<00:03, 109.80timesteps/s]Running 608 projections in parallel:   7%|▋         | 24/351 [00:00<00:02, 116.19timesteps/s]Running 608 projections in parallel:  10%|█         | 36/351 [00:00<00:02, 117.56timesteps/s]Running 608 projections in parallel:  14%|█▍        | 49/351 [00:00<00:02, 118.76timesteps/s]Running 608 projections in parallel:  18%|█▊        | 62/351 [00:00<00:02, 119.45timesteps/s]Running 608 projections in parallel:  21%|██▏       | 75/351 [00:00<00:02, 119.91timesteps/s]Running 608 projections in parallel:  25%|██▌       | 88/351 [00:00<00:02, 120.24timesteps/s]Running 608 projections in parallel:  29%|██▉       | 101/351 [00:00<00:02, 120.61timesteps/s]Running 608 projections in parallel:  32%|███▏      | 114/351 [00:00<00:01, 120.89timesteps/s]Running 608 projections in parallel:  36%|███▌      | 127/351 [00:01<00:01, 121.16timesteps/s]Running 608 projections in parallel:  40%|███▉      | 140/351 [00:01<00:01, 121.37timesteps/s]Running 608 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 121.51timesteps/s]Running 608 projections in parallel:  47%|████▋     | 166/351 [00:01<00:01, 121.68timesteps/s]Running 608 projections in parallel:  51%|█████     | 179/351 [00:01<00:01, 121.82timesteps/s]Running 608 projections in parallel:  55%|█████▍    | 192/351 [00:01<00:01, 121.73timesteps/s]Running 608 projections in parallel:  58%|█████▊    | 205/351 [00:01<00:01, 121.73timesteps/s]Running 608 projections in parallel:  62%|██████▏   | 218/351 [00:01<00:01, 121.79timesteps/s]Running 608 projections in parallel:  66%|██████▌   | 231/351 [00:01<00:00, 121.77timesteps/s]Running 608 projections in parallel:  70%|██████▉   | 244/351 [00:02<00:00, 121.77timesteps/s]Running 608 projections in parallel:  73%|███████▎  | 257/351 [00:02<00:00, 121.83timesteps/s]Running 608 projections in parallel:  77%|███████▋  | 270/351 [00:02<00:00, 121.94timesteps/s]Running 608 projections in parallel:  81%|████████  | 283/351 [00:02<00:00, 121.85timesteps/s]Running 608 projections in parallel:  84%|████████▍ | 296/351 [00:02<00:00, 121.82timesteps/s]Running 608 projections in parallel:  88%|████████▊ | 309/351 [00:02<00:00, 121.84timesteps/s]Running 608 projections in parallel:  92%|█████████▏| 322/351 [00:02<00:00, 121.80timesteps/s]Running 608 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 121.81timesteps/s]Running 608 projections in parallel:  99%|█████████▉| 348/351 [00:02<00:00, 121.75timesteps/s]Running 608 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 121.05timesteps/s]
+Running 3648 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3648 projections in parallel:  62%|██████▏   | 219/351 [00:00<00:00, 2182.31timesteps/s]Running 3648 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2176.26timesteps/s]
+cut=2028Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2028
+Dumping output...
+Running 599 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 599 projections in parallel:   3%|▎         | 12/351 [00:00<00:03, 111.81timesteps/s]Running 599 projections in parallel:   7%|▋         | 25/351 [00:00<00:02, 118.35timesteps/s]Running 599 projections in parallel:  11%|█         | 38/351 [00:00<00:02, 120.64timesteps/s]Running 599 projections in parallel:  15%|█▍        | 51/351 [00:00<00:02, 121.83timesteps/s]Running 599 projections in parallel:  18%|█▊        | 64/351 [00:00<00:02, 122.65timesteps/s]Running 599 projections in parallel:  22%|██▏       | 77/351 [00:00<00:02, 123.28timesteps/s]Running 599 projections in parallel:  26%|██▌       | 90/351 [00:00<00:02, 123.63timesteps/s]Running 599 projections in parallel:  29%|██▉       | 103/351 [00:00<00:02, 123.88timesteps/s]Running 599 projections in parallel:  33%|███▎      | 116/351 [00:00<00:01, 124.15timesteps/s]Running 599 projections in parallel:  37%|███▋      | 129/351 [00:01<00:01, 124.12timesteps/s]Running 599 projections in parallel:  40%|████      | 142/351 [00:01<00:01, 124.29timesteps/s]Running 599 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 124.52timesteps/s]Running 599 projections in parallel:  48%|████▊     | 168/351 [00:01<00:01, 124.61timesteps/s]Running 599 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 124.73timesteps/s]Running 599 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 124.83timesteps/s]Running 599 projections in parallel:  59%|█████▉    | 207/351 [00:01<00:01, 124.86timesteps/s]Running 599 projections in parallel:  63%|██████▎   | 220/351 [00:01<00:01, 124.89timesteps/s]Running 599 projections in parallel:  66%|██████▋   | 233/351 [00:01<00:00, 124.93timesteps/s]Running 599 projections in parallel:  70%|███████   | 246/351 [00:01<00:00, 124.89timesteps/s]Running 599 projections in parallel:  74%|███████▍  | 259/351 [00:02<00:00, 124.86timesteps/s]Running 599 projections in parallel:  77%|███████▋  | 272/351 [00:02<00:00, 124.77timesteps/s]Running 599 projections in parallel:  81%|████████  | 285/351 [00:02<00:00, 124.76timesteps/s]Running 599 projections in parallel:  85%|████████▍ | 298/351 [00:02<00:00, 124.81timesteps/s]Running 599 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 124.83timesteps/s]Running 599 projections in parallel:  92%|█████████▏| 324/351 [00:02<00:00, 124.79timesteps/s]Running 599 projections in parallel:  96%|█████████▌| 337/351 [00:02<00:00, 124.73timesteps/s]Running 599 projections in parallel: 100%|█████████▉| 350/351 [00:02<00:00, 124.77timesteps/s]Running 599 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 124.06timesteps/s]
+Running 3594 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3594 projections in parallel:  56%|█████▌    | 197/351 [00:00<00:00, 1961.13timesteps/s]Running 3594 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 1958.38timesteps/s]
+cut=2029Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2029
+Dumping output...
+Running 635 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 635 projections in parallel:   3%|▎         | 11/351 [00:00<00:03, 103.99timesteps/s]Running 635 projections in parallel:   7%|▋         | 23/351 [00:00<00:02, 109.98timesteps/s]Running 635 projections in parallel:  10%|▉         | 35/351 [00:00<00:02, 112.02timesteps/s]Running 635 projections in parallel:  13%|█▎        | 47/351 [00:00<00:02, 113.19timesteps/s]Running 635 projections in parallel:  17%|█▋        | 59/351 [00:00<00:02, 113.78timesteps/s]Running 635 projections in parallel:  20%|██        | 71/351 [00:00<00:02, 114.22timesteps/s]Running 635 projections in parallel:  24%|██▎       | 83/351 [00:00<00:02, 114.50timesteps/s]Running 635 projections in parallel:  27%|██▋       | 95/351 [00:00<00:02, 114.77timesteps/s]Running 635 projections in parallel:  30%|███       | 107/351 [00:00<00:02, 114.98timesteps/s]Running 635 projections in parallel:  34%|███▍      | 119/351 [00:01<00:02, 115.14timesteps/s]Running 635 projections in parallel:  37%|███▋      | 131/351 [00:01<00:01, 115.30timesteps/s]Running 635 projections in parallel:  41%|████      | 143/351 [00:01<00:01, 115.39timesteps/s]Running 635 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 115.45timesteps/s]Running 635 projections in parallel:  48%|████▊     | 167/351 [00:01<00:01, 115.49timesteps/s]Running 635 projections in parallel:  51%|█████     | 179/351 [00:01<00:01, 115.54timesteps/s]Running 635 projections in parallel:  54%|█████▍    | 191/351 [00:01<00:01, 115.58timesteps/s]Running 635 projections in parallel:  58%|█████▊    | 203/351 [00:01<00:01, 115.72timesteps/s]Running 635 projections in parallel:  61%|██████▏   | 215/351 [00:01<00:01, 115.82timesteps/s]Running 635 projections in parallel:  65%|██████▍   | 227/351 [00:01<00:01, 115.84timesteps/s]Running 635 projections in parallel:  68%|██████▊   | 239/351 [00:02<00:00, 115.88timesteps/s]Running 635 projections in parallel:  72%|███████▏  | 251/351 [00:02<00:00, 115.89timesteps/s]Running 635 projections in parallel:  75%|███████▍  | 263/351 [00:02<00:00, 115.86timesteps/s]Running 635 projections in parallel:  78%|███████▊  | 275/351 [00:02<00:00, 115.89timesteps/s]Running 635 projections in parallel:  82%|████████▏ | 287/351 [00:02<00:00, 115.87timesteps/s]Running 635 projections in parallel:  85%|████████▌ | 299/351 [00:02<00:00, 115.89timesteps/s]Running 635 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 115.86timesteps/s]Running 635 projections in parallel:  92%|█████████▏| 323/351 [00:02<00:00, 115.91timesteps/s]Running 635 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 115.91timesteps/s]Running 635 projections in parallel:  99%|█████████▉| 347/351 [00:03<00:00, 115.89timesteps/s]Running 635 projections in parallel: 100%|██████████| 351/351 [00:03<00:00, 115.14timesteps/s]
+Running 3810 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3810 projections in parallel:  52%|█████▏    | 184/351 [00:00<00:00, 1832.77timesteps/s]Running 3810 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 1828.00timesteps/s]
+cut=2030Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2030
+Dumping output...
+Running 606 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 606 projections in parallel:   3%|▎         | 12/351 [00:00<00:03, 111.59timesteps/s]Running 606 projections in parallel:   7%|▋         | 25/351 [00:00<00:02, 117.45timesteps/s]Running 606 projections in parallel:  11%|█         | 38/351 [00:00<00:02, 119.54timesteps/s]Running 606 projections in parallel:  15%|█▍        | 51/351 [00:00<00:02, 120.56timesteps/s]Running 606 projections in parallel:  18%|█▊        | 64/351 [00:00<00:02, 121.18timesteps/s]Running 606 projections in parallel:  22%|██▏       | 77/351 [00:00<00:02, 121.69timesteps/s]Running 606 projections in parallel:  26%|██▌       | 90/351 [00:00<00:02, 122.07timesteps/s]Running 606 projections in parallel:  29%|██▉       | 103/351 [00:00<00:02, 122.29timesteps/s]Running 606 projections in parallel:  33%|███▎      | 116/351 [00:00<00:01, 122.44timesteps/s]Running 606 projections in parallel:  37%|███▋      | 129/351 [00:01<00:01, 122.58timesteps/s]Running 606 projections in parallel:  40%|████      | 142/351 [00:01<00:01, 122.58timesteps/s]Running 606 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 122.82timesteps/s]Running 606 projections in parallel:  48%|████▊     | 168/351 [00:01<00:01, 123.14timesteps/s]Running 606 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 123.18timesteps/s]Running 606 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 123.24timesteps/s]Running 606 projections in parallel:  59%|█████▉    | 207/351 [00:01<00:01, 123.30timesteps/s]Running 606 projections in parallel:  63%|██████▎   | 220/351 [00:01<00:01, 123.31timesteps/s]Running 606 projections in parallel:  66%|██████▋   | 233/351 [00:01<00:00, 123.43timesteps/s]Running 606 projections in parallel:  70%|███████   | 246/351 [00:02<00:00, 123.50timesteps/s]Running 606 projections in parallel:  74%|███████▍  | 259/351 [00:02<00:00, 123.48timesteps/s]Running 606 projections in parallel:  77%|███████▋  | 272/351 [00:02<00:00, 123.51timesteps/s]Running 606 projections in parallel:  81%|████████  | 285/351 [00:02<00:00, 123.45timesteps/s]Running 606 projections in parallel:  85%|████████▍ | 298/351 [00:02<00:00, 123.37timesteps/s]Running 606 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 123.50timesteps/s]Running 606 projections in parallel:  92%|█████████▏| 324/351 [00:02<00:00, 123.45timesteps/s]Running 606 projections in parallel:  96%|█████████▌| 337/351 [00:02<00:00, 123.36timesteps/s]Running 606 projections in parallel: 100%|█████████▉| 350/351 [00:02<00:00, 123.24timesteps/s]Running 606 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 122.61timesteps/s]
+Running 3636 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3636 projections in parallel:  62%|██████▏   | 218/351 [00:00<00:00, 2172.52timesteps/s]Running 3636 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2168.15timesteps/s]
+cut=2031Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2031
+Dumping output...
+Running 585 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 585 projections in parallel:   3%|▎         | 12/351 [00:00<00:02, 114.75timesteps/s]Running 585 projections in parallel:   7%|▋         | 25/351 [00:00<00:02, 120.58timesteps/s]Running 585 projections in parallel:  11%|█         | 38/351 [00:00<00:02, 123.22timesteps/s]Running 585 projections in parallel:  15%|█▍        | 51/351 [00:00<00:02, 124.61timesteps/s]Running 585 projections in parallel:  18%|█▊        | 64/351 [00:00<00:02, 125.44timesteps/s]Running 585 projections in parallel:  22%|██▏       | 77/351 [00:00<00:02, 125.95timesteps/s]Running 585 projections in parallel:  26%|██▌       | 90/351 [00:00<00:02, 126.25timesteps/s]Running 585 projections in parallel:  29%|██▉       | 103/351 [00:00<00:01, 126.51timesteps/s]Running 585 projections in parallel:  33%|███▎      | 116/351 [00:00<00:01, 126.75timesteps/s]Running 585 projections in parallel:  37%|███▋      | 129/351 [00:01<00:01, 126.85timesteps/s]Running 585 projections in parallel:  40%|████      | 142/351 [00:01<00:01, 127.00timesteps/s]Running 585 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 127.11timesteps/s]Running 585 projections in parallel:  48%|████▊     | 168/351 [00:01<00:01, 127.21timesteps/s]Running 585 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 127.26timesteps/s]Running 585 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 127.29timesteps/s]Running 585 projections in parallel:  59%|█████▉    | 207/351 [00:01<00:01, 127.35timesteps/s]Running 585 projections in parallel:  63%|██████▎   | 220/351 [00:01<00:01, 127.46timesteps/s]Running 585 projections in parallel:  66%|██████▋   | 233/351 [00:01<00:00, 127.48timesteps/s]Running 585 projections in parallel:  70%|███████   | 246/351 [00:01<00:00, 127.39timesteps/s]Running 585 projections in parallel:  74%|███████▍  | 259/351 [00:02<00:00, 127.42timesteps/s]Running 585 projections in parallel:  77%|███████▋  | 272/351 [00:02<00:00, 127.42timesteps/s]Running 585 projections in parallel:  81%|████████  | 285/351 [00:02<00:00, 127.36timesteps/s]Running 585 projections in parallel:  85%|████████▍ | 298/351 [00:02<00:00, 127.39timesteps/s]Running 585 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 127.42timesteps/s]Running 585 projections in parallel:  92%|█████████▏| 324/351 [00:02<00:00, 127.43timesteps/s]Running 585 projections in parallel:  96%|█████████▌| 337/351 [00:02<00:00, 127.37timesteps/s]Running 585 projections in parallel: 100%|█████████▉| 350/351 [00:02<00:00, 127.04timesteps/s]Running 585 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 126.62timesteps/s]
+Running 3510 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3510 projections in parallel:  64%|██████▍   | 226/351 [00:00<00:00, 2254.62timesteps/s]Running 3510 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2248.15timesteps/s]
+cut=2032Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2032
+Dumping output...
+Running 565 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 565 projections in parallel:   3%|▎         | 12/351 [00:00<00:02, 119.05timesteps/s]Running 565 projections in parallel:   7%|▋         | 26/351 [00:00<00:02, 125.73timesteps/s]Running 565 projections in parallel:  11%|█▏        | 40/351 [00:00<00:02, 127.97timesteps/s]Running 565 projections in parallel:  15%|█▌        | 54/351 [00:00<00:02, 129.06timesteps/s]Running 565 projections in parallel:  19%|█▉        | 68/351 [00:00<00:02, 129.69timesteps/s]Running 565 projections in parallel:  23%|██▎       | 82/351 [00:00<00:02, 130.03timesteps/s]Running 565 projections in parallel:  27%|██▋       | 96/351 [00:00<00:01, 130.34timesteps/s]Running 565 projections in parallel:  31%|███▏      | 110/351 [00:00<00:01, 130.62timesteps/s]Running 565 projections in parallel:  35%|███▌      | 124/351 [00:00<00:01, 130.71timesteps/s]Running 565 projections in parallel:  39%|███▉      | 138/351 [00:01<00:01, 130.44timesteps/s]Running 565 projections in parallel:  43%|████▎     | 152/351 [00:01<00:01, 130.55timesteps/s]Running 565 projections in parallel:  47%|████▋     | 166/351 [00:01<00:01, 130.70timesteps/s]Running 565 projections in parallel:  51%|█████▏    | 180/351 [00:01<00:01, 130.85timesteps/s]Running 565 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 131.02timesteps/s]Running 565 projections in parallel:  59%|█████▉    | 208/351 [00:01<00:01, 131.11timesteps/s]Running 565 projections in parallel:  63%|██████▎   | 222/351 [00:01<00:00, 131.05timesteps/s]Running 565 projections in parallel:  67%|██████▋   | 236/351 [00:01<00:00, 131.10timesteps/s]Running 565 projections in parallel:  71%|███████   | 250/351 [00:01<00:00, 131.05timesteps/s]Running 565 projections in parallel:  75%|███████▌  | 264/351 [00:02<00:00, 131.09timesteps/s]Running 565 projections in parallel:  79%|███████▉  | 278/351 [00:02<00:00, 131.16timesteps/s]Running 565 projections in parallel:  83%|████████▎ | 292/351 [00:02<00:00, 131.15timesteps/s]Running 565 projections in parallel:  87%|████████▋ | 306/351 [00:02<00:00, 131.13timesteps/s]Running 565 projections in parallel:  91%|█████████ | 320/351 [00:02<00:00, 131.18timesteps/s]Running 565 projections in parallel:  95%|█████████▌| 334/351 [00:02<00:00, 131.26timesteps/s]Running 565 projections in parallel:  99%|█████████▉| 348/351 [00:02<00:00, 131.18timesteps/s]Running 565 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 130.50timesteps/s]
+Running 3390 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3390 projections in parallel:  66%|██████▌   | 232/351 [00:00<00:00, 2312.17timesteps/s]Running 3390 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2305.49timesteps/s]
+cut=2033Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2033
+Dumping output...
+Running 556 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 556 projections in parallel:   4%|▎         | 13/351 [00:00<00:02, 121.31timesteps/s]Running 556 projections in parallel:   8%|▊         | 27/351 [00:00<00:02, 127.21timesteps/s]Running 556 projections in parallel:  12%|█▏        | 41/351 [00:00<00:02, 129.57timesteps/s]Running 556 projections in parallel:  16%|█▌        | 55/351 [00:00<00:02, 130.68timesteps/s]Running 556 projections in parallel:  20%|█▉        | 69/351 [00:00<00:02, 131.40timesteps/s]Running 556 projections in parallel:  24%|██▎       | 83/351 [00:00<00:02, 131.70timesteps/s]Running 556 projections in parallel:  28%|██▊       | 97/351 [00:00<00:01, 132.06timesteps/s]Running 556 projections in parallel:  32%|███▏      | 111/351 [00:00<00:01, 132.39timesteps/s]Running 556 projections in parallel:  36%|███▌      | 125/351 [00:00<00:01, 132.54timesteps/s]Running 556 projections in parallel:  40%|███▉      | 139/351 [00:01<00:01, 132.89timesteps/s]Running 556 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 133.23timesteps/s]Running 556 projections in parallel:  48%|████▊     | 167/351 [00:01<00:01, 133.28timesteps/s]Running 556 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 133.63timesteps/s]Running 556 projections in parallel:  56%|█████▌    | 195/351 [00:01<00:01, 133.69timesteps/s]Running 556 projections in parallel:  60%|█████▉    | 209/351 [00:01<00:01, 133.74timesteps/s]Running 556 projections in parallel:  64%|██████▎   | 223/351 [00:01<00:00, 133.88timesteps/s]Running 556 projections in parallel:  68%|██████▊   | 237/351 [00:01<00:00, 134.05timesteps/s]Running 556 projections in parallel:  72%|███████▏  | 251/351 [00:01<00:00, 134.04timesteps/s]Running 556 projections in parallel:  75%|███████▌  | 265/351 [00:01<00:00, 134.01timesteps/s]Running 556 projections in parallel:  79%|███████▉  | 279/351 [00:02<00:00, 134.03timesteps/s]Running 556 projections in parallel:  83%|████████▎ | 293/351 [00:02<00:00, 133.97timesteps/s]Running 556 projections in parallel:  87%|████████▋ | 307/351 [00:02<00:00, 133.95timesteps/s]Running 556 projections in parallel:  91%|█████████▏| 321/351 [00:02<00:00, 134.09timesteps/s]Running 556 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 134.03timesteps/s]Running 556 projections in parallel:  99%|█████████▉| 349/351 [00:02<00:00, 133.99timesteps/s]Running 556 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 132.97timesteps/s]
+Running 3336 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3336 projections in parallel:  68%|██████▊   | 240/351 [00:00<00:00, 2399.24timesteps/s]Running 3336 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2390.62timesteps/s]
+cut=2034Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2034
+Dumping output...
+Running 574 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 574 projections in parallel:   3%|▎         | 12/351 [00:00<00:02, 115.87timesteps/s]Running 574 projections in parallel:   7%|▋         | 25/351 [00:00<00:02, 122.10timesteps/s]Running 574 projections in parallel:  11%|█         | 38/351 [00:00<00:02, 125.13timesteps/s]Running 574 projections in parallel:  15%|█▍        | 51/351 [00:00<00:02, 126.72timesteps/s]Running 574 projections in parallel:  18%|█▊        | 64/351 [00:00<00:02, 127.57timesteps/s]Running 574 projections in parallel:  22%|██▏       | 77/351 [00:00<00:02, 128.08timesteps/s]Running 574 projections in parallel:  26%|██▌       | 90/351 [00:00<00:02, 128.46timesteps/s]Running 574 projections in parallel:  29%|██▉       | 103/351 [00:00<00:01, 128.71timesteps/s]Running 574 projections in parallel:  33%|███▎      | 116/351 [00:00<00:01, 128.89timesteps/s]Running 574 projections in parallel:  37%|███▋      | 129/351 [00:01<00:01, 129.11timesteps/s]Running 574 projections in parallel:  40%|████      | 142/351 [00:01<00:01, 129.08timesteps/s]Running 574 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 129.24timesteps/s]Running 574 projections in parallel:  48%|████▊     | 168/351 [00:01<00:01, 129.20timesteps/s]Running 574 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 129.27timesteps/s]Running 574 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 129.25timesteps/s]Running 574 projections in parallel:  59%|█████▉    | 207/351 [00:01<00:01, 129.05timesteps/s]Running 574 projections in parallel:  63%|██████▎   | 220/351 [00:01<00:01, 129.09timesteps/s]Running 574 projections in parallel:  66%|██████▋   | 233/351 [00:01<00:00, 129.13timesteps/s]Running 574 projections in parallel:  70%|███████   | 246/351 [00:01<00:00, 129.21timesteps/s]Running 574 projections in parallel:  74%|███████▍  | 259/351 [00:02<00:00, 129.19timesteps/s]Running 574 projections in parallel:  77%|███████▋  | 272/351 [00:02<00:00, 129.14timesteps/s]Running 574 projections in parallel:  81%|████████  | 285/351 [00:02<00:00, 129.18timesteps/s]Running 574 projections in parallel:  85%|████████▍ | 298/351 [00:02<00:00, 129.19timesteps/s]Running 574 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 129.25timesteps/s]Running 574 projections in parallel:  92%|█████████▏| 324/351 [00:02<00:00, 129.29timesteps/s]Running 574 projections in parallel:  96%|█████████▌| 337/351 [00:02<00:00, 129.31timesteps/s]Running 574 projections in parallel: 100%|█████████▉| 350/351 [00:02<00:00, 128.77timesteps/s]Running 574 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 128.52timesteps/s]
+Running 3444 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3444 projections in parallel:  58%|█████▊    | 205/351 [00:00<00:00, 2044.66timesteps/s]Running 3444 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2037.70timesteps/s]
+cut=2035Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2035
+Dumping output...
+Running 594 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 594 projections in parallel:   3%|▎         | 12/351 [00:00<00:03, 111.81timesteps/s]Running 594 projections in parallel:   7%|▋         | 25/351 [00:00<00:02, 117.30timesteps/s]Running 594 projections in parallel:  11%|█         | 38/351 [00:00<00:02, 119.34timesteps/s]Running 594 projections in parallel:  15%|█▍        | 51/351 [00:00<00:02, 120.38timesteps/s]Running 594 projections in parallel:  18%|█▊        | 64/351 [00:00<00:02, 120.73timesteps/s]Running 594 projections in parallel:  22%|██▏       | 77/351 [00:00<00:02, 121.34timesteps/s]Running 594 projections in parallel:  26%|██▌       | 90/351 [00:00<00:02, 121.87timesteps/s]Running 594 projections in parallel:  29%|██▉       | 103/351 [00:00<00:02, 122.23timesteps/s]Running 594 projections in parallel:  33%|███▎      | 116/351 [00:00<00:01, 122.48timesteps/s]Running 594 projections in parallel:  37%|███▋      | 129/351 [00:01<00:01, 122.69timesteps/s]Running 594 projections in parallel:  40%|████      | 142/351 [00:01<00:01, 122.83timesteps/s]Running 594 projections in parallel:  44%|████▍     | 155/351 [00:01<00:01, 122.89timesteps/s]Running 594 projections in parallel:  48%|████▊     | 168/351 [00:01<00:01, 122.90timesteps/s]Running 594 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 123.02timesteps/s]Running 594 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 123.13timesteps/s]Running 594 projections in parallel:  59%|█████▉    | 207/351 [00:01<00:01, 123.08timesteps/s]Running 594 projections in parallel:  63%|██████▎   | 220/351 [00:01<00:01, 123.17timesteps/s]Running 594 projections in parallel:  66%|██████▋   | 233/351 [00:01<00:00, 123.11timesteps/s]Running 594 projections in parallel:  70%|███████   | 246/351 [00:02<00:00, 123.11timesteps/s]Running 594 projections in parallel:  74%|███████▍  | 259/351 [00:02<00:00, 123.12timesteps/s]Running 594 projections in parallel:  77%|███████▋  | 272/351 [00:02<00:00, 123.09timesteps/s]Running 594 projections in parallel:  81%|████████  | 285/351 [00:02<00:00, 123.27timesteps/s]Running 594 projections in parallel:  85%|████████▍ | 298/351 [00:02<00:00, 123.27timesteps/s]Running 594 projections in parallel:  89%|████████▊ | 311/351 [00:02<00:00, 123.27timesteps/s]Running 594 projections in parallel:  92%|█████████▏| 324/351 [00:02<00:00, 123.31timesteps/s]Running 594 projections in parallel:  96%|█████████▌| 337/351 [00:02<00:00, 123.32timesteps/s]Running 594 projections in parallel: 100%|█████████▉| 350/351 [00:02<00:00, 123.09timesteps/s]Running 594 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 122.45timesteps/s]
+Running 3564 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3564 projections in parallel:  58%|█████▊    | 202/351 [00:00<00:00, 2010.55timesteps/s]Running 3564 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2007.71timesteps/s]
+cut=2036Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2036
+Dumping output...
+Running 539 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 539 projections in parallel:   4%|▎         | 13/351 [00:00<00:02, 125.48timesteps/s]Running 539 projections in parallel:   8%|▊         | 27/351 [00:00<00:02, 131.82timesteps/s]Running 539 projections in parallel:  12%|█▏        | 41/351 [00:00<00:02, 133.88timesteps/s]Running 539 projections in parallel:  16%|█▌        | 55/351 [00:00<00:02, 134.70timesteps/s]Running 539 projections in parallel:  20%|█▉        | 69/351 [00:00<00:02, 135.47timesteps/s]Running 539 projections in parallel:  24%|██▎       | 83/351 [00:00<00:01, 135.73timesteps/s]Running 539 projections in parallel:  28%|██▊       | 97/351 [00:00<00:01, 135.96timesteps/s]Running 539 projections in parallel:  32%|███▏      | 111/351 [00:00<00:01, 136.38timesteps/s]Running 539 projections in parallel:  36%|███▌      | 125/351 [00:00<00:01, 136.42timesteps/s]Running 539 projections in parallel:  40%|███▉      | 139/351 [00:01<00:01, 136.46timesteps/s]Running 539 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 136.43timesteps/s]Running 539 projections in parallel:  48%|████▊     | 167/351 [00:01<00:01, 136.47timesteps/s]Running 539 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 136.34timesteps/s]Running 539 projections in parallel:  56%|█████▌    | 195/351 [00:01<00:01, 136.42timesteps/s]Running 539 projections in parallel:  60%|█████▉    | 209/351 [00:01<00:01, 136.53timesteps/s]Running 539 projections in parallel:  64%|██████▎   | 223/351 [00:01<00:00, 136.66timesteps/s]Running 539 projections in parallel:  68%|██████▊   | 237/351 [00:01<00:00, 136.70timesteps/s]Running 539 projections in parallel:  72%|███████▏  | 251/351 [00:01<00:00, 136.70timesteps/s]Running 539 projections in parallel:  75%|███████▌  | 265/351 [00:01<00:00, 136.49timesteps/s]Running 539 projections in parallel:  79%|███████▉  | 279/351 [00:02<00:00, 136.45timesteps/s]Running 539 projections in parallel:  83%|████████▎ | 293/351 [00:02<00:00, 136.04timesteps/s]Running 539 projections in parallel:  87%|████████▋ | 307/351 [00:02<00:00, 136.08timesteps/s]Running 539 projections in parallel:  91%|█████████▏| 321/351 [00:02<00:00, 136.08timesteps/s]Running 539 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 136.08timesteps/s]Running 539 projections in parallel:  99%|█████████▉| 349/351 [00:02<00:00, 135.89timesteps/s]Running 539 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 135.88timesteps/s]
+Running 3234 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3234 projections in parallel:  70%|██████▉   | 245/351 [00:00<00:00, 2441.72timesteps/s]Running 3234 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2431.74timesteps/s]
+cut=2037Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2037
+Dumping output...
+Running 552 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 552 projections in parallel:   3%|▎         | 12/351 [00:00<00:02, 119.94timesteps/s]Running 552 projections in parallel:   7%|▋         | 26/351 [00:00<00:02, 127.14timesteps/s]Running 552 projections in parallel:  11%|█▏        | 40/351 [00:00<00:02, 129.40timesteps/s]Running 552 projections in parallel:  15%|█▌        | 54/351 [00:00<00:02, 130.76timesteps/s]Running 552 projections in parallel:  19%|█▉        | 68/351 [00:00<00:02, 131.26timesteps/s]Running 552 projections in parallel:  23%|██▎       | 82/351 [00:00<00:02, 131.45timesteps/s]Running 552 projections in parallel:  27%|██▋       | 96/351 [00:00<00:01, 131.95timesteps/s]Running 552 projections in parallel:  31%|███▏      | 110/351 [00:00<00:01, 132.33timesteps/s]Running 552 projections in parallel:  35%|███▌      | 124/351 [00:00<00:01, 132.60timesteps/s]Running 552 projections in parallel:  39%|███▉      | 138/351 [00:01<00:01, 132.62timesteps/s]Running 552 projections in parallel:  43%|████▎     | 152/351 [00:01<00:01, 132.82timesteps/s]Running 552 projections in parallel:  47%|████▋     | 166/351 [00:01<00:01, 132.85timesteps/s]Running 552 projections in parallel:  51%|█████▏    | 180/351 [00:01<00:01, 132.98timesteps/s]Running 552 projections in parallel:  55%|█████▌    | 194/351 [00:01<00:01, 133.04timesteps/s]Running 552 projections in parallel:  59%|█████▉    | 208/351 [00:01<00:01, 133.18timesteps/s]Running 552 projections in parallel:  63%|██████▎   | 222/351 [00:01<00:00, 133.18timesteps/s]Running 552 projections in parallel:  67%|██████▋   | 236/351 [00:01<00:00, 133.32timesteps/s]Running 552 projections in parallel:  71%|███████   | 250/351 [00:01<00:00, 133.36timesteps/s]Running 552 projections in parallel:  75%|███████▌  | 264/351 [00:01<00:00, 133.23timesteps/s]Running 552 projections in parallel:  79%|███████▉  | 278/351 [00:02<00:00, 133.35timesteps/s]Running 552 projections in parallel:  83%|████████▎ | 292/351 [00:02<00:00, 133.40timesteps/s]Running 552 projections in parallel:  87%|████████▋ | 306/351 [00:02<00:00, 133.53timesteps/s]Running 552 projections in parallel:  91%|█████████ | 320/351 [00:02<00:00, 133.45timesteps/s]Running 552 projections in parallel:  95%|█████████▌| 334/351 [00:02<00:00, 133.51timesteps/s]Running 552 projections in parallel:  99%|█████████▉| 348/351 [00:02<00:00, 133.23timesteps/s]Running 552 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 132.48timesteps/s]
+Running 3312 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3312 projections in parallel:  68%|██████▊   | 237/351 [00:00<00:00, 2363.21timesteps/s]Running 3312 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2352.52timesteps/s]
+cut=2038Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2038
+Dumping output...
+Running 545 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 545 projections in parallel:   4%|▎         | 13/351 [00:00<00:02, 123.80timesteps/s]Running 545 projections in parallel:   8%|▊         | 27/351 [00:00<00:02, 130.94timesteps/s]Running 545 projections in parallel:  12%|█▏        | 41/351 [00:00<00:02, 133.45timesteps/s]Running 545 projections in parallel:  16%|█▌        | 55/351 [00:00<00:02, 134.80timesteps/s]Running 545 projections in parallel:  20%|█▉        | 69/351 [00:00<00:02, 135.19timesteps/s]Running 545 projections in parallel:  24%|██▎       | 83/351 [00:00<00:01, 135.84timesteps/s]Running 545 projections in parallel:  28%|██▊       | 97/351 [00:00<00:01, 136.22timesteps/s]Running 545 projections in parallel:  32%|███▏      | 111/351 [00:00<00:01, 136.45timesteps/s]Running 545 projections in parallel:  36%|███▌      | 125/351 [00:00<00:01, 136.65timesteps/s]Running 545 projections in parallel:  40%|███▉      | 139/351 [00:01<00:01, 136.78timesteps/s]Running 545 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 136.94timesteps/s]Running 545 projections in parallel:  48%|████▊     | 167/351 [00:01<00:01, 136.98timesteps/s]Running 545 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 136.98timesteps/s]Running 545 projections in parallel:  56%|█████▌    | 195/351 [00:01<00:01, 137.03timesteps/s]Running 545 projections in parallel:  60%|█████▉    | 209/351 [00:01<00:01, 137.12timesteps/s]Running 545 projections in parallel:  64%|██████▎   | 223/351 [00:01<00:00, 137.16timesteps/s]Running 545 projections in parallel:  68%|██████▊   | 237/351 [00:01<00:00, 137.17timesteps/s]Running 545 projections in parallel:  72%|███████▏  | 251/351 [00:01<00:00, 137.18timesteps/s]Running 545 projections in parallel:  75%|███████▌  | 265/351 [00:01<00:00, 137.08timesteps/s]Running 545 projections in parallel:  79%|███████▉  | 279/351 [00:02<00:00, 137.05timesteps/s]Running 545 projections in parallel:  83%|████████▎ | 293/351 [00:02<00:00, 137.04timesteps/s]Running 545 projections in parallel:  87%|████████▋ | 307/351 [00:02<00:00, 137.06timesteps/s]Running 545 projections in parallel:  91%|█████████▏| 321/351 [00:02<00:00, 137.05timesteps/s]Running 545 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 137.02timesteps/s]Running 545 projections in parallel:  99%|█████████▉| 349/351 [00:02<00:00, 136.87timesteps/s]Running 545 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 136.37timesteps/s]
+Running 3270 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3270 projections in parallel:  69%|██████▉   | 243/351 [00:00<00:00, 2428.35timesteps/s]Running 3270 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2419.65timesteps/s]
+cut=2039Missing or empty calibrated_constrained_parameters.csv; rerunning 04_dump-calibration.py for cutoff 2039
+Dumping output...
+Running 532 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 532 projections in parallel:   4%|▎         | 13/351 [00:00<00:02, 126.07timesteps/s]Running 532 projections in parallel:   8%|▊         | 27/351 [00:00<00:02, 132.93timesteps/s]Running 532 projections in parallel:  12%|█▏        | 41/351 [00:00<00:02, 135.77timesteps/s]Running 532 projections in parallel:  16%|█▌        | 55/351 [00:00<00:02, 137.30timesteps/s]Running 532 projections in parallel:  20%|█▉        | 69/351 [00:00<00:02, 138.04timesteps/s]Running 532 projections in parallel:  24%|██▎       | 83/351 [00:00<00:01, 138.60timesteps/s]Running 532 projections in parallel:  28%|██▊       | 97/351 [00:00<00:01, 138.94timesteps/s]Running 532 projections in parallel:  32%|███▏      | 111/351 [00:00<00:01, 139.13timesteps/s]Running 532 projections in parallel:  36%|███▌      | 125/351 [00:00<00:01, 139.30timesteps/s]Running 532 projections in parallel:  40%|███▉      | 139/351 [00:01<00:01, 139.22timesteps/s]Running 532 projections in parallel:  44%|████▎     | 153/351 [00:01<00:01, 139.14timesteps/s]Running 532 projections in parallel:  48%|████▊     | 167/351 [00:01<00:01, 139.37timesteps/s]Running 532 projections in parallel:  52%|█████▏    | 181/351 [00:01<00:01, 139.48timesteps/s]Running 532 projections in parallel:  56%|█████▌    | 195/351 [00:01<00:01, 139.43timesteps/s]Running 532 projections in parallel:  60%|█████▉    | 209/351 [00:01<00:01, 139.54timesteps/s]Running 532 projections in parallel:  64%|██████▎   | 223/351 [00:01<00:00, 139.26timesteps/s]Running 532 projections in parallel:  68%|██████▊   | 237/351 [00:01<00:00, 139.43timesteps/s]Running 532 projections in parallel:  72%|███████▏  | 251/351 [00:01<00:00, 139.48timesteps/s]Running 532 projections in parallel:  75%|███████▌  | 265/351 [00:01<00:00, 139.47timesteps/s]Running 532 projections in parallel:  79%|███████▉  | 279/351 [00:02<00:00, 139.43timesteps/s]Running 532 projections in parallel:  83%|████████▎ | 293/351 [00:02<00:00, 139.45timesteps/s]Running 532 projections in parallel:  87%|████████▋ | 307/351 [00:02<00:00, 139.55timesteps/s]Running 532 projections in parallel:  91%|█████████▏| 321/351 [00:02<00:00, 139.62timesteps/s]Running 532 projections in parallel:  95%|█████████▌| 335/351 [00:02<00:00, 139.46timesteps/s]Running 532 projections in parallel:  99%|█████████▉| 349/351 [00:02<00:00, 139.31timesteps/s]Running 532 projections in parallel: 100%|██████████| 351/351 [00:02<00:00, 138.81timesteps/s]
+Running 3192 projections in parallel:   0%|          | 0/351 [00:00<?, ?timesteps/s]Running 3192 projections in parallel:  71%|███████   | 249/351 [00:00<00:00, 2483.81timesteps/s]Running 3192 projections in parallel: 100%|██████████| 351/351 [00:00<00:00, 2471.52timesteps/s]
+===== DONE: reran 04 where needed =====
+
+All requested reruns complete.

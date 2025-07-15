@@ -1,0 +1,2 @@
+Starting job 59 on node1904
+slurmstepd: error: *** JOB 11676772 ON node1904 CANCELLED AT 2025-06-07T15:43:08 DUE TO TIME LIMIT ***

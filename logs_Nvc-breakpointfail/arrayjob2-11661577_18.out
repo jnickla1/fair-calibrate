@@ -1,0 +1,13 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11663196
+##  Job Name : FAIR_Nvc
+##  Nodelist : node[1949,1951-1953,1955-1956]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Thu Jun  5 07:01:14 PM EDT 2025
+###############################################################################
+Starting job 18 on node1949
+rm: cannot remove '/logs_Nv/arrayjob-*_18.out': No such file or directory
+Total time: 2336 seconds
+All done!

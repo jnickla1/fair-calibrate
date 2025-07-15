@@ -1,0 +1,4 @@
+Starting job 42 on node1905
+rm: cannot remove 'logs_Nv/arrayjob2-*_42.out': No such file or directory
+Total time: 1693 seconds
+All done!

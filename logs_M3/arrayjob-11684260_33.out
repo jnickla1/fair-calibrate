@@ -1,0 +1,17 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11695681
+##  Job Name : FAIR_M3
+##  Nodelist : node[1937-1939,1947,1949,1954]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Mon Jun  9 09:12:15 PM EDT 2025
+###############################################################################
+Starting job 33 on node1937
+environment: line 1: 97967 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 97923 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 97873 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 1: 98000 Killed                  ./"$file" >> ${script_dir}/logs_M3/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 3059 seconds
+All done!
+slurmstepd: error: Detected 4 oom_kill events in StepId=11695681.batch. Some of the step tasks have been OOM Killed.

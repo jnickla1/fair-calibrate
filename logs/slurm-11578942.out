@@ -1,0 +1,17 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11578942
+##  Job Name : run_mult2
+##  Nodelist : node2333
+##      CPUs : 1
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Mon May 26 03:03:27 PM EDT 2025
+###############################################################################
+0
+>>> Constraining with cutoff year = 1930
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+/var/spool/slurmd/job11578942/slurm_script: line 29: 197821 Killed                  "./$file"
+ERROR in constraining/01_constrain-gsat-rmse-only.py for cutoff 1930
+slurmstepd: error: Detected 1 oom_kill event in StepId=11578942.batch. Some of the step tasks have been OOM Killed.

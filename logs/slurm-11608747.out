@@ -1,0 +1,16 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11608747
+##  Job Name : FAIRc_NORESM
+##  Nodelist : node2414
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 28 01:48:29 PM EDT 2025
+###############################################################################
+Starting job  on node2414
+Running the priors (could take a while)...
+8603
+Done with sampling
+/var/spool/slurmd/job11608747/slurm_script: line 61: parallel: command not found
+8603
+All done!

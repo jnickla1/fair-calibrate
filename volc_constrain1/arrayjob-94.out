@@ -1,0 +1,38 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11614602
+##  Job Name : FAIRc_cur
+##  Nodelist : node2352
+##      CPUs : 1
+##  Mem/Node : 16384 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 28 10:41:41 PM EDT 2025
+###############################################################################
+Starting job 94 on node2352
+0
+>>> Constraining with cutoff year = 2023
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 154488
+[ 99832  25674  76040 134420  35076  96735 108566 141989  72474  20338]
+[0.16999837 0.16999841 0.16999862 0.16999883 0.16999889 0.169999
+ 0.1699996  0.16999972 0.16999985 0.16999993]
+[0.10592657 0.10873874 0.10890593 0.10920935 0.10989837 0.10993861
+ 0.10997635 0.11010345 0.11011237 0.1101364 ]
+1
+####  • constraining/02_run-1pct.py####
+295
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+296
+Doing reweighting...
+breakpoint here?
+Number of effective samples: 832
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolc/constraining/./03_reweight-rmse-posterior-multiple-constraints.py", line 390, in <module>
+    assert effective_samples >= output_ensemble_size
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+ERROR in constraining/03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2023

@@ -1,0 +1,21 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11626116
+##  Job Name : FAIR_M3
+##  Nodelist : node2410
+##      CPUs : 48
+##  Mem/Node : 8192 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 01:51:09 PM EDT 2025
+###############################################################################
+>>> Running calibration
+  • calibration/01_tabulate-4xCO2.py
+Making nice 4xCO2 data...
+  • calibration/02_calibrate_cummins_3layer.r
+Running R script for 3 layer model calibrations...
+[1] "Success! Convergence achieved in 5170 iterations."
+[1] "Success! Convergence achieved in 5364 iterations."
+[1] "Success! Convergence achieved in 5397 iterations."
+[1] "Success! Convergence achieved in 4228 iterations."
+[1] "Success! Convergence achieved in 4814 iterations."
+[1] "Success! Convergence achieved in 5232 iterations."
+slurmstepd: error: *** JOB 11626116 ON node2410 CANCELLED AT 2025-05-30T13:51:35 ***

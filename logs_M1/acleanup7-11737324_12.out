@@ -1,0 +1,18 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11737336
+##  Job Name : FAIR_M1b
+##  Nodelist : node2347
+##      CPUs : 1
+##   Mem/CPU : 6144 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun 15 11:29:00 AM EDT 2025
+###############################################################################
+Starting job 12 on node2347
+all_current_MPIESM126
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1990✓✓cut=1991✓✓cut=1992✓✓cut=1993✓✓cut=1994✓✓cut=1995✓✓cut=1996✓✓cut=1997✓✓cut=1998✓✓cut=1999✓✓cut=2000✓✓cut=2001✓✓cut=2002✓✓cut=2003✓✓cut=2004✓✓cut=2005✓✓cut=2006✓✓cut=2007✓✓cut=2008✓✓cut=2009✓✓cut=2010✓✓cut=2011✓✓cut=2012✓✓cut=2013✓✓cut=2014✓✓cut=2015✓✓cut=2016✓✓cut=2017✓✓cut=2018✓✓cut=2019✓✓cut=2020✓✓cut=2021✓✓cut=2022✓✓cut=2023✓✓cut=2024✓✓cut=2025✓✓cut=2026✓✓cut=2027✓✓cut=2028✓✓cut=2029✓✓cut=2030✓✓cut=2031✓✓cut=2032✓✓cut=2033✓✓cut=2034✓✓cut=2035✓✓cut=2036✓✓cut=2037✓✓cut=2038✓✓cut=2039✓✓===== DONE: reran 01 + 03 where needed =====
+
+===== STARTING: rerun 04 for any missing outputs =====
+cut=1990✓cut=1991✓cut=1992✓cut=1993✓cut=1994✓cut=1995✓cut=1996✓cut=1997✓cut=1998✓cut=1999✓cut=2000✓cut=2001✓cut=2002✓cut=2003✓cut=2004✓cut=2005✓cut=2006✓cut=2007✓cut=2008✓cut=2009✓cut=2010✓cut=2011✓cut=2012✓cut=2013✓cut=2014✓cut=2015✓cut=2016✓cut=2017✓cut=2018✓cut=2019✓cut=2020✓cut=2021✓cut=2022✓cut=2023✓cut=2024✓cut=2025✓cut=2026✓cut=2027✓cut=2028✓cut=2029✓cut=2030✓cut=2031✓cut=2032✓cut=2033✓cut=2034✓cut=2035✓cut=2036✓cut=2037✓cut=2038✓cut=2039✓===== DONE: reran 04 where needed =====
+
+All requested reruns complete.

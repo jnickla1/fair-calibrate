@@ -1,0 +1,3 @@
+[submodule "FAIR_core"]
+	path = FAIR_core
+	url = https://github.com/OMS-NetZero/FAIR.git

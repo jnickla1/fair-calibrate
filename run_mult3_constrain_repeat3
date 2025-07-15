@@ -1,0 +1,84 @@
+#!/bin/bash
+#SBATCH -J FAIR_M2
+#SBATCH -t 0:20:00
+# Should only take 6 mins max
+#SBATCH --account=epscor-condo
+#SBATCH -n 1
+#SBATCH --mem=16gb
+#SBATCH --array=0-1
+#10199
+
+# Use '%A' for array-job ID, '%J' for job ID and '%a' for task ID
+#####SBATCH -e arrayjob-%a.err
+#SBATCH -o logs_pM2/arrayjob-%a.out
+
+echo "Starting job $SLURM_ARRAY_TASK_ID on $HOSTNAME"
+
+# usage: ./run
+
+eval "$(conda shell.bash hook)"
+conda activate fair-calibrate
+module load r
+# Don't forget to set your environment variables in .env
+if [ -f .env3 ]
+then
+  export $(cat .env3 | xargs)
+fi
+
+# Base path to your fair-calibrate input tree
+script_dir=$PWD
+base_dir="${script_dir}/input/fair-${FAIR_VERSION}/v${CALIBRATION_VERSION}/${CONSTRAINT_SET}"
+
+unset CUTOFF_YEAR
+unset ENSEMBLE_RUN
+start=$SECONDS
+
+ENSEMBLE_MIN=1
+N_ENSEMBLE=60   # 1 through 60
+CUTOFF_MIN=1930
+N_CUTOFF=170    # 1930 through 2099
+
+task_id=${SLURM_ARRAY_TASK_ID}
+
+ENSEMBLE_INDEX=$(( task_id % N_ENSEMBLE ))
+CUTOFF_INDEX=$(( task_id / N_ENSEMBLE ))
+
+export ENSEMBLE_RUN=$(( ENSEMBLE_MIN + ENSEMBLE_INDEX ))
+export CUTOFF_YEAR=$(( CUTOFF_MIN + CUTOFF_INDEX ))
+
+echo "Running ENSEMBLE_RUN = $ENSEMBLE_RUN, CUTOFF_YEAR = $CUTOFF_YEAR"
+
+
+
+# 2) Constraining for multiple cutoff years
+##########
+
+#for cutoff in $(seq 1930 1933); do #2024
+ 
+  echo $(( SECONDS - start ))
+  echo ">>> Constraining with cutoff year = ${CUTOFF_YEAR}"
+  cd "${base_dir}/constraining"
+  file_array=( $(\ls [0-9][0-9]_*.*) )
+  for filekey in "${!file_array[@]}"; do
+    echo $filekey
+    if [ $filekey -eq 2 ]; then  #part 0 currently takes about 300s #for debugging specific constraining files
+       file=${file_array[$filekey]}
+    echo "####  • constraining/${file}####"
+    echo $(( SECONDS - start ))
+    chmod +x "$file"
+    "./$file" || { echo "ERROR in constraining/${file} for cutoff ${CUTOFF_YEAR}"; exit 1; }
+    elif [ $filekey -eq 3 ]; then 
+	conda deactivate
+	conda activate fair2
+	file=${file_array[$filekey]}
+        echo "####  • constraining/${file}####"
+        echo $(( SECONDS - start ))
+        chmod +x "$file"
+        "./$file" || { echo "ERROR in constraining/${file} for cutoff ${CUTOFF_YEAR}"; exit 1; }
+    fi
+  done
+
+#done
+
+echo $(( SECONDS - start ))
+echo "All done!"

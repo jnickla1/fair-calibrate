@@ -1,0 +1,12 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11663163
+##  Job Name : FAIR_Nvc
+##  Nodelist : node[1905,1909,1911,1918,1920-1921]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Thu Jun  5 06:57:21 PM EDT 2025
+###############################################################################
+Starting job 17 on node1905
+rm: cannot remove '/logs_Nv/arrayjob-*_17.out': No such file or directory
+slurmstepd: error: *** JOB 11663163 ON node1905 CANCELLED AT 2025-06-05T19:57:51 DUE TO TIME LIMIT ***

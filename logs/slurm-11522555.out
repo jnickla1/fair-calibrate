@@ -1,0 +1,395 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11522555
+##  Job Name : run_mult2
+##  Nodelist : node2329
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Mon May 19 10:37:59 AM EDT 2025
+###############################################################################
+0
+>>> Constraining with cutoff year = 1930
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 801437
+[714503 435687 111712  99079 512133 716712 617009 735234 647423 166120]
+[0.16999943 0.16999965 0.16999972 0.16999974 0.1699998  0.16999981
+ 0.16999988 0.16999989 0.1699999  0.16999998]
+[0.08715941 0.08797517 0.08815895 0.08849115 0.08933279 0.08980789
+ 0.09003873 0.0900814  0.09013654 0.09029503]
+1
+####  • constraining/02_run-1pct.py####
+40
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+1078
+Doing reweighting...
+Number of effective samples: 6803
+Constrained, reweighted parameters:
+ECS: [2.07043185 3.03153107 5.16735998]
+TCR: [1.37385212 1.84151354 2.43748766]
+CO2 concentration 2022: [416.16022851 416.98197562 417.79166   ]
+Temperature 2003-2022 rel. 1850-1900: [0.94689707 1.0722079  1.19799567]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60325629 -0.31183597 -0.01775504]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.71015231 -1.01217045 -0.33858599]
+Aerosol ERF 2005-2014 rel. 1750: [-2.04376809 -1.3219612  -0.60145578]
+OHC change 2020 rel. 1971: [356.11421781 467.71181634 574.9842481 ]
+*likely range
+3
+####  • constraining/04_dump-calibration.py####
+1285
+Dumping output...
+4
+####  • constraining/05_constrained-ssp-projections.py####
+1303
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py:103: DeprecationWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  f.emissions = fe.drop("config") * np.ones((1, 1, output_ensemble_size, 1))
+Running SSP scenarios...
+Anomalies rel. 1995-2014:
+[[0.40567275 0.70417103 1.11944886]
+ [0.4409081  0.89135184 1.53492768]
+ [0.21412216 0.71887448 1.52049847]
+ [0.4233582  0.71806959 1.11625769]
+ [0.58065414 1.04381697 1.70639404]
+ [0.4436427  1.02921726 1.90351805]
+ [0.43114678 0.6902396  1.05661707]
+ [0.74453817 1.15236065 1.76319816]
+ [1.05838824 1.76976269 2.85110537]
+ [0.440868   0.68828164 1.0448337 ]
+ [0.82735154 1.17977026 1.71610453]
+ [1.68262908 2.41946232 3.4987836 ]
+ [0.46619989 0.74328565 1.1197576 ]
+ [0.97601619 1.43934352 2.14895414]
+ [2.19419757 3.23880169 4.75822178]]
+
+Anomalies rel. 1850-1900:
+[[1.28496692 1.53946245 1.88667676]
+ [1.33437893 1.72498798 2.31511755]
+ [1.12396641 1.56346381 2.30668334]
+ [1.30491453 1.55263728 1.89386601]
+ [1.4797885  1.87925247 2.4799113 ]
+ [1.36697854 1.8903243  2.71378417]
+ [1.30755255 1.53305491 1.83677023]
+ [1.61634827 1.99205228 2.53043702]
+ [1.96508319 2.61113407 3.67031657]
+ [1.31429016 1.53010193 1.81873151]
+ [1.68824238 2.01701339 2.47808553]
+ [2.54232247 3.25200765 4.26769427]
+ [1.34707694 1.58372103 1.90448841]
+ [1.85211663 2.27974171 2.92753529]
+ [3.07100787 4.06640073 5.58004172]]
+
+Methane forcing 2019: [0.44941007 0.56080455 0.6736836 ]
+Methane concentration 2019: [1864.90607865 1874.9408032  1886.81183907]
+WMGHG forcing 2019: [3.03473409 3.31466486 3.62425657]
+5
+####  • constraining/06_check-tcre-af.py####
+1369
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./06_check-tcre-af.py:49: DeprecationWarning: `in1d` is deprecated. Use `np.isin` instead.
+  idx = np.in1d(pass1, pass2).nonzero()[0]
+temperature 2xCO2: [1.45000734 1.89773251 2.51719982]
+temperature 4xCO2: [3.31663695 4.39197967 6.05248406]
+TCRE @1000GtC: [1.18007116 1.54915517 2.05814749]
+AF 2xCO2*: [0.4721193  0.48335919 0.49458262]
+AF 4xCO2*: [0.48088691 0.55490284 0.59518814]
+TCRE (IPCC method)*: [1.26152814 1.5055081  1.83699832]
+*likely range
+6
+####  • constraining/07_three-panel-plot.py####
+1370
+7
+####  • constraining/08_prior-posterior-constrained.py####
+1372
+1373
+>>> Constraining with cutoff year = 1931
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+1373
+Doing RMSE constraint...
+Passing RMSE constraint: 793700
+[665741  87891 178386 483106 554819 468538  71739 501217 608896 464817]
+[0.16999963 0.16999965 0.16999967 0.16999969 0.1699998  0.16999982
+ 0.16999982 0.16999992 0.16999995 0.16999999]
+[0.08709994 0.08816844 0.08892958 0.08904656 0.08966367 0.09057057
+ 0.09084514 0.09090178 0.09091802 0.09098114]
+1
+####  • constraining/02_run-1pct.py####
+1414
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+2470
+Doing reweighting...
+Number of effective samples: 6744
+Constrained, reweighted parameters:
+ECS: [2.04903147 3.05281386 5.11382021]
+TCR: [1.36826548 1.8733136  2.43011021]
+CO2 concentration 2022: [416.16681688 416.98197562 417.85915306]
+Temperature 2003-2022 rel. 1850-1900: [0.94172177 1.06904671 1.1864313 ]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.60166665 -0.29471822  0.01726804]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.72516437 -1.03376431 -0.34410721]
+Aerosol ERF 2005-2014 rel. 1750: [-2.05108747 -1.33375605 -0.66127561]
+OHC change 2020 rel. 1971: [351.24062163 464.54978519 577.64250149]
+*likely range
+3
+####  • constraining/04_dump-calibration.py####
+2674
+Dumping output...
+4
+####  • constraining/05_constrained-ssp-projections.py####
+2686
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py:103: DeprecationWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  f.emissions = fe.drop("config") * np.ones((1, 1, output_ensemble_size, 1))
+Running SSP scenarios...
+Anomalies rel. 1995-2014:
+[[0.40685938 0.70162128 1.13342094]
+ [0.44015725 0.88088365 1.54592779]
+ [0.22524532 0.71909706 1.5180566 ]
+ [0.42965615 0.71664127 1.12686856]
+ [0.57902413 1.034248   1.69675871]
+ [0.4571892  1.03139961 1.90924828]
+ [0.44275942 0.68828056 1.05798158]
+ [0.74172099 1.14377963 1.76041861]
+ [1.05870743 1.77652496 2.79817352]
+ [0.45473994 0.68451049 1.04682211]
+ [0.82570514 1.16647854 1.6910178 ]
+ [1.68015329 2.42877802 3.43294511]
+ [0.47838551 0.73921458 1.13425719]
+ [0.97970621 1.43359131 2.13514788]
+ [2.19009003 3.24674932 4.63638069]]
+
+Anomalies rel. 1850-1900:
+[[1.28356878 1.54231414 1.88569848]
+ [1.32361631 1.731585   2.28227327]
+ [1.11276606 1.56144418 2.25938655]
+ [1.3046682  1.55649197 1.8859739 ]
+ [1.46720414 1.88084017 2.45837032]
+ [1.35853343 1.87344048 2.67520589]
+ [1.3044823  1.53100183 1.81954635]
+ [1.61456431 1.98918137 2.51239359]
+ [1.94179799 2.6180237  3.5895822 ]
+ [1.30995393 1.52753496 1.80133338]
+ [1.66922875 2.02112298 2.45722859]
+ [2.53970581 3.25740062 4.20639778]
+ [1.34469598 1.58223241 1.89654215]
+ [1.85930829 2.27974171 2.90902704]
+ [3.06696549 4.07737824 5.45275584]]
+
+Methane forcing 2019: [0.44559156 0.55676471 0.66809633]
+Methane concentration 2019: [1865.37861964 1875.29396416 1886.21223265]
+WMGHG forcing 2019: [3.03070587 3.32901747 3.6301997 ]
+5
+####  • constraining/06_check-tcre-af.py####
+2752
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./06_check-tcre-af.py:49: DeprecationWarning: `in1d` is deprecated. Use `np.isin` instead.
+  idx = np.in1d(pass1, pass2).nonzero()[0]
+temperature 2xCO2: [1.45000734 1.91384825 2.52023452]
+temperature 4xCO2: [3.31663695 4.42075374 6.04946539]
+TCRE @1000GtC: [1.18007116 1.55996775 2.05969218]
+AF 2xCO2*: [0.47179855 0.48352253 0.49361843]
+AF 4xCO2*: [0.47851011 0.5548556  0.59275191]
+TCRE (IPCC method)*: [1.2763741  1.51749512 1.82499756]
+*likely range
+6
+####  • constraining/07_three-panel-plot.py####
+2753
+7
+####  • constraining/08_prior-posterior-constrained.py####
+2755
+2756
+>>> Constraining with cutoff year = 1932
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+2756
+Doing RMSE constraint...
+Passing RMSE constraint: 790990
+[248866 163862 281725  87757 499331 749651  64261 186127 101346 596440]
+[0.16999929 0.16999937 0.16999949 0.16999965 0.16999971 0.16999972
+ 0.1699998  0.16999983 0.16999984 0.16999992]
+[0.08759377 0.08869554 0.08873869 0.08999257 0.09051571 0.09072776
+ 0.09074142 0.09100564 0.09103165 0.09149441]
+1
+####  • constraining/02_run-1pct.py####
+2793
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+3768
+Doing reweighting...
+Number of effective samples: 6760
+Constrained, reweighted parameters:
+ECS: [2.03209583 3.03221358 5.03461907]
+TCR: [1.36715203 1.84777006 2.41977824]
+CO2 concentration 2022: [416.15017844 417.00547414 417.83195168]
+Temperature 2003-2022 rel. 1850-1900: [0.94351416 1.07486285 1.19799567]
+Aerosol ERFari 2005-2014 rel. 1750: [-0.61225662 -0.30669109 -0.02790786]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.70098151 -0.99289896 -0.36252685]
+Aerosol ERF 2005-2014 rel. 1750: [-2.03770077 -1.31014595 -0.65214014]
+OHC change 2020 rel. 1971: [347.57172191 461.87149512 576.28476367]
+*likely range
+3
+####  • constraining/04_dump-calibration.py####
+3972
+Dumping output...
+4
+####  • constraining/05_constrained-ssp-projections.py####
+3983
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py:103: DeprecationWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  f.emissions = fe.drop("config") * np.ones((1, 1, output_ensemble_size, 1))
+Running SSP scenarios...
+Anomalies rel. 1995-2014:
+[[0.40490237 0.69277562 1.1375108 ]
+ [0.44015725 0.86788435 1.5320079 ]
+ [0.22282836 0.70595041 1.50581684]
+ [0.42235011 0.70529242 1.12856591]
+ [0.57709769 1.02147844 1.69649819]
+ [0.45647718 1.01790015 1.8908265 ]
+ [0.42257008 0.68156007 1.05661707]
+ [0.74012332 1.13262077 1.73954979]
+ [1.05838824 1.74965581 2.77229544]
+ [0.4374062  0.6818463  1.04682211]
+ [0.81525699 1.15887927 1.70833281]
+ [1.66788439 2.38499529 3.44395671]
+ [0.4587342  0.73324213 1.12420963]
+ [0.97067472 1.43231625 2.12301237]
+ [2.16339283 3.21424541 4.6294392 ]]
+
+Anomalies rel. 1850-1900:
+[[1.27412786 1.5414899  1.88923647]
+ [1.30608142 1.71115925 2.29796869]
+ [1.10785666 1.54307862 2.29538784]
+ [1.28768343 1.55263728 1.89427262]
+ [1.44464636 1.86871981 2.47220333]
+ [1.35638052 1.86086536 2.661937  ]
+ [1.28283522 1.53212573 1.82875492]
+ [1.59417561 1.97817389 2.52010577]
+ [1.93956052 2.58691981 3.58803693]
+ [1.28405152 1.52888273 1.81739619]
+ [1.65379285 2.00895195 2.48115687]
+ [2.51124469 3.23054807 4.22036625]
+ [1.33142681 1.58038342 1.90500547]
+ [1.83489203 2.26328879 2.90902704]
+ [3.03188969 4.04668681 5.44907357]]
+
+Methane forcing 2019: [0.4389946  0.55415492 0.65991861]
+Methane concentration 2019: [1864.767292   1874.6995171  1885.34572063]
+WMGHG forcing 2019: [3.02540075 3.31573037 3.59552256]
+5
+####  • constraining/06_check-tcre-af.py####
+4049
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./06_check-tcre-af.py:49: DeprecationWarning: `in1d` is deprecated. Use `np.isin` instead.
+  idx = np.in1d(pass1, pass2).nonzero()[0]
+temperature 2xCO2: [1.44834376 1.89044109 2.52727905]
+temperature 4xCO2: [3.27978621 4.417805   6.04402468]
+TCRE @1000GtC: [1.17935206 1.54581209 2.07064597]
+AF 2xCO2*: [0.47172205 0.48301804 0.49376182]
+AF 4xCO2*: [0.48123801 0.55321016 0.59304377]
+TCRE (IPCC method)*: [1.26965407 1.49710512 1.81430033]
+*likely range
+6
+####  • constraining/07_three-panel-plot.py####
+4050
+7
+####  • constraining/08_prior-posterior-constrained.py####
+4052
+4053
+>>> Constraining with cutoff year = 1933
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+4053
+Doing RMSE constraint...
+Passing RMSE constraint: 784702
+[215497 551134 426768 259732 118339 248058 169814 732284 316042 666702]
+[0.16999953 0.16999954 0.16999954 0.16999958 0.16999971 0.16999973
+ 0.16999982 0.16999982 0.16999985 0.16999994]
+[0.0874606  0.08846746 0.08856478 0.09023797 0.09024431 0.09052603
+ 0.09056582 0.0907895  0.09114729 0.09140197]
+1
+####  • constraining/02_run-1pct.py####
+4084
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+5106
+Doing reweighting...
+Number of effective samples: 6751
+Constrained, reweighted parameters:
+ECS: [2.00534962 3.05919807 5.13457792]
+TCR: [1.3691981  1.83219589 2.41665553]
+CO2 concentration 2022: [416.16972941 416.97742348 417.79979612]
+Temperature 2003-2022 rel. 1850-1900: [0.94542547 1.0715717  1.192681  ]
+Aerosol ERFari 2005-2014 rel. 1750: [-6.05914804e-01 -3.03885894e-01 -3.32172049e-04]
+Aerosol ERFaci 2005-2014 rel. 1750: [-1.68841352 -1.02299854 -0.33036179]
+Aerosol ERF 2005-2014 rel. 1750: [-2.0268708  -1.32663095 -0.59406977]
+OHC change 2020 rel. 1971: [346.52429092 460.64034103 577.64250149]
+*likely range
+3
+####  • constraining/04_dump-calibration.py####
+5307
+Dumping output...
+4
+####  • constraining/05_constrained-ssp-projections.py####
+5319
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./05_constrained-ssp-projections.py:103: DeprecationWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  f.emissions = fe.drop("config") * np.ones((1, 1, output_ensemble_size, 1))
+Running SSP scenarios...
+Anomalies rel. 1995-2014:
+[[0.40135268 0.69372642 1.11918043]
+ [0.40693998 0.88205525 1.54262498]
+ [0.18014086 0.72988322 1.48870392]
+ [0.42083498 0.7063335  1.11490006]
+ [0.55397845 1.02520075 1.70639404]
+ [0.42700919 1.03139961 1.8983132 ]
+ [0.42878571 0.6817579  1.05254587]
+ [0.72100632 1.13683079 1.75412417]
+ [1.03718091 1.76002801 2.81522337]
+ [0.44068632 0.67869011 1.04467978]
+ [0.80886554 1.16445828 1.69660122]
+ [1.66412712 2.38021667 3.49876772]
+ [0.46071945 0.73292121 1.11604558]
+ [0.96488877 1.43069844 2.12152855]
+ [2.17830947 3.21085139 4.70353842]]
+
+Anomalies rel. 1850-1900:
+[[1.28471597 1.52255751 1.88341069]
+ [1.30743518 1.71783711 2.30290357]
+ [1.09030777 1.55662228 2.26703864]
+ [1.3046682  1.5385436  1.88302222]
+ [1.44727278 1.86847474 2.46578655]
+ [1.33849751 1.85952207 2.66210208]
+ [1.3028761  1.51874727 1.82415182]
+ [1.60968983 1.97136072 2.52378551]
+ [1.92309468 2.59586203 3.61096741]
+ [1.31429016 1.52028194 1.81034597]
+ [1.6676243  2.00876708 2.48115687]
+ [2.52103621 3.22666191 4.26040106]
+ [1.34317011 1.56486564 1.88933215]
+ [1.84756146 2.26148681 2.90434514]
+ [3.03937148 4.03812924 5.5015233 ]]
+
+Methane forcing 2019: [0.45082847 0.55378421 0.65911942]
+Methane concentration 2019: [1864.46487078 1875.10586405 1885.89402094]
+WMGHG forcing 2019: [3.02919396 3.32060026 3.63189316]
+5
+####  • constraining/06_check-tcre-af.py####
+5386
+/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining/./06_check-tcre-af.py:49: DeprecationWarning: `in1d` is deprecated. Use `np.isin` instead.
+  idx = np.in1d(pass1, pass2).nonzero()[0]
+temperature 2xCO2: [1.44834376 1.89044109 2.50644674]
+temperature 4xCO2: [3.30775702 4.38668841 5.98085307]
+TCRE @1000GtC: [1.17935206 1.54624683 2.0424067 ]
+AF 2xCO2*: [0.4721219  0.48358045 0.49420184]
+AF 4xCO2*: [0.48088931 0.55438837 0.59609267]
+TCRE (IPCC method)*: [1.27291715 1.49903825 1.81439026]
+*likely range
+6
+####  • constraining/07_three-panel-plot.py####
+5388
+7
+####  • constraining/08_prior-posterior-constrained.py####
+5389
+5391
+All done!

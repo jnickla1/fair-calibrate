@@ -1,0 +1,27 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11667838
+##  Job Name : FAIR_Nvc
+##  Nodelist : node2319
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun  6 12:56:16 PM EDT 2025
+###############################################################################
+Starting job 43 on node2319
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930✓✓cut=1931✓Missing or empty runids_rmse_reweighted_pass.csv; rerunning 03_reweight-rmse-posterior-multiple-constraints.py for cutoff 1931
+Doing reweighting...
+> /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolcConst/constraining/03_reweight-rmse-posterior-multiple-constraints.py(233)<module>()
+-> ar_distributions = {}
+(Pdb) 
+Traceback (most recent call last):
+  File "/oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolcConst/constraining/03_reweight-rmse-posterior-multiple-constraints.py", line 233, in <module>
+    ar_distributions = {}
+                       ^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/jnickla1/.conda/envs/fair-calibrate/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

@@ -1,0 +1,13 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11666852
+##  Job Name : FAIR_Nvc
+##  Nodelist : node2334
+##      CPUs : 1
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun  6 11:53:42 AM EDT 2025
+###############################################################################
+Starting job 57 on node2334
+===== STARTING: rerun 01 + 03 for any missing outputs =====
+cut=1930Missing or empty runids_rmse_pass.csv; rerunning 01_constrain-gmst-rmse-only.py for cutoff 1930
+/var/spool/slurmd/job11666852/slurm_script: line 57: cd: /var/spool/slurmd/job11666852/input/fair-2.1.3/v1.4/all_current_NorESMVolc/constraining: No such file or directory

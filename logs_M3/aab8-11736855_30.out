@@ -1,0 +1,11 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11736888
+##  Job Name : FAIR_M3
+##  Nodelist : node[2315,2317-2320]
+##      CPUs : 10
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun 15 02:10:20 AM EDT 2025
+###############################################################################
+Starting job 30 on node2315
+slurmstepd: error: *** JOB 11736888 ON node2315 CANCELLED AT 2025-06-15T03:10:21 DUE TO TIME LIMIT ***

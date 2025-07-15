@@ -1,0 +1,36 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11614619
+##  Job Name : FAIRc_cur
+##  Nodelist : node2340
+##      CPUs : 1
+##  Mem/Node : 16384 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 28 10:42:19 PM EDT 2025
+###############################################################################
+Starting job 111 on node2340
+0
+>>> Constraining with cutoff year = 2040
+0
+####  • constraining/01_constrain-gsat-rmse-only.py####
+0
+Doing RMSE constraint...
+Passing RMSE constraint: 94801
+[ 2334 20815 59330 37909 54230 28219 55156 15728 46129 67419]
+[0.16999776 0.16999783 0.16999783 0.1699979  0.16999792 0.16999902
+ 0.16999912 0.16999952 0.16999953 0.16999999]
+[0.107394   0.10847619 0.10894497 0.1091169  0.10916723 0.10948479
+ 0.10969421 0.11010671 0.11014541 0.11015082]
+1
+####  • constraining/02_run-1pct.py####
+270
+Running 1pctCO2 scenarios...
+2
+####  • constraining/03_reweight-rmse-posterior-multiple-constraints.py####
+273
+Doing reweighting...
+Traceback (most recent call last):
+  File "/oscar/home/jnickla1/fair-calibrate/input/fair-2.1.3/v1.4/all_current_NorESMVolc/constraining/./03_reweight-rmse-posterior-multiple-constraints.py", line 156, in <module>
+    scale=np.sqrt(ohc_sd[cutoff_int]**2+ohc_sd[cutoff_int-50]**2), size=10**5, random_state=43178)
+                  ~~~~~~^^^^^^^^^^^^
+IndexError: index 190 is out of bounds for axis 0 with size 174
+ERROR in constraining/03_reweight-rmse-posterior-multiple-constraints.py for cutoff 2040

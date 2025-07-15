@@ -1,0 +1,326 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11472605
+##  Job Name : run_mult_cutoffs
+##  Nodelist : node2407
+##      CPUs : 40
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/home/jnickla1/fair-calibrate
+##   Job Started : Wed May 14 12:56:05 PM EDT 2025
+###############################################################################
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `.env': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `debugging,': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `runs,': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `plots?': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `bar?': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `(good': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `interactive,': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `jobs)': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `#': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `(a': not a valid identifier
+/var/spool/slurmd/job11472605/slurm_script: line 10: export: `directory)': not a valid identifier
+>>> Running calibration
+/var/spool/slurmd/job11472605/slurm_script: line 27: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/calibration: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Running sampling
+/var/spool/slurmd/job11472605/slurm_script: line 27: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/sampling: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+##### CALIBRATION and SAMPLING COMPLETE #####
+0
+>>> Constraining with cutoff year = 1930
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1931
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1932
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1933
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1934
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1935
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1936
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1937
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1938
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1939
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1940
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1941
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1942
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1943
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1944
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1945
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1946
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1947
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1948
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1949
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1950
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1951
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1952
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1953
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1954
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1955
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1956
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1957
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1958
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1959
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1960
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1961
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1962
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1963
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1964
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1965
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1966
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1967
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1968
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1969
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1970
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1971
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1972
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1973
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1974
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1975
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1976
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1977
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1978
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1979
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1980
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1981
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1982
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1983
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1984
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1985
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1986
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1987
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1988
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1989
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1990
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1991
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1992
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1993
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1994
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1995
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1996
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1997
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1998
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 1999
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2000
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2001
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2002
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2003
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2004
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2005
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2006
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2007
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2008
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2009
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2010
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2011
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2012
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2013
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2014
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2015
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2016
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2017
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2018
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2019
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2020
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2021
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2022
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2023
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+>>> Constraining with cutoff year = 2024
+/var/spool/slurmd/job11472605/slurm_script: line 46: cd: /var/spool/slurmd/job11472605/input/fair-2.1.3/v1.4/all-2022_hadcrut5_current/constraining: No such file or directory
+ls: cannot access '[0-9][0-9]_*.*': No such file or directory
+1
+All done!

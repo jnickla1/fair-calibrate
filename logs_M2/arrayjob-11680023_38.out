@@ -1,0 +1,14 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11683706
+##  Job Name : FAIR_M2
+##  Nodelist : node[2301,2303,2305-2306,2309-2310]
+##      CPUs : 86
+##   Mem/CPU : 5120 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Mon Jun  9 06:01:09 AM EDT 2025
+###############################################################################
+Starting job 38 on node2301
+environment: line 1: 3040360 Killed                  ./"$file" >> ${script_dir}/logs_M2/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+Total time: 3238 seconds
+All done!
+slurmstepd: error: Detected 1 oom_kill event in StepId=11683706.batch. Some of the step tasks have been OOM Killed.

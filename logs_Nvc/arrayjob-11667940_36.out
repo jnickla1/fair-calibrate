@@ -1,0 +1,6 @@
+Starting job 36 on node2307
+rm: cannot remove 'logs_Nv/arrayjob2-*_36.out': No such file or directory
+environment: line 5: 3480396 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 3478374 Killed                  ./"$file" >> ${script_dir}/logs_Nvc/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+slurmstepd: error: *** JOB 11675230 ON node2307 CANCELLED AT 2025-06-07T06:20:21 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 2 oom_kill events in StepId=11675230.batch. Some of the step tasks have been OOM Killed.

@@ -1,0 +1,12 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11631717
+##  Job Name : FAIR_Nv
+##  Nodelist : node2411
+##      CPUs : 85
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Sun Jun  1 04:19:57 AM EDT 2025
+###############################################################################
+Starting job 45 on node2411
+Total time: 538 seconds
+All done!

@@ -1,0 +1,723 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11628703
+##  Job Name : FAIR_Nv
+##  Nodelist : node2304
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri May 30 07:13:31 PM EDT 2025
+###############################################################################
+Starting job 1 on node2304
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+no change     /gpfs/runtime/opt/anaconda/2022.05/condabin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/conda-env
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/activate
+no change     /gpfs/runtime/opt/anaconda/2022.05/bin/deactivate
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/fish/conf.d/conda.fish
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/Conda.psm1
+no change     /gpfs/runtime/opt/anaconda/2022.05/shell/condabin/conda-hook.ps1
+no change     /gpfs/runtime/opt/anaconda/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.csh
+no change     /users/jnickla1/.bashrc
+No action taken.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+slurmstepd: error: *** JOB 11628703 ON node2304 CANCELLED AT 2025-05-30T19:25:15 ***

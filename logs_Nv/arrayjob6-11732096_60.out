@@ -1,0 +1,15 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11732096
+##  Job Name : FAIR_Nv
+##  Nodelist : node[2302-2303,2308-2310,2312,2315-2316,2318-2320,2327-2331]
+##      CPUs : 172
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/data/deeps/private/bfoxkemp/jnickla1/fair-calibrate
+##   Job Started : Fri Jun 13 05:48:41 PM EDT 2025
+###############################################################################
+Starting job 60 on node2302
+environment: line 5: 507927 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 507834 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+environment: line 5: 507979 Killed                  ./"$file" >> ${script_dir}/logs_Nv/log_ens${ENSEMBLE_RUN}_cut${CUTOFF_YEAR}.log 2>&1
+slurmstepd: error: *** JOB 11732096 ON node2302 CANCELLED AT 2025-06-13T17:49:22 ***
+slurmstepd: error: Detected 3 oom_kill events in StepId=11732096.batch. Some of the step tasks have been OOM Killed.
